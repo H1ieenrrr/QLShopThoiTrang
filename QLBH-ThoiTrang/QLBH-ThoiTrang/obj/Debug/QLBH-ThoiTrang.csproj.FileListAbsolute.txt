@@ -1,0 +1,52 @@
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.exe.config
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormMain.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.Properties.Resources.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csproj.GenerateResource.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormDangNhap.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormDoiMatKhau.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLyHoaDon.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLySanPham.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.exe
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.pdb
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.exe.config
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.exe
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.pdb
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormDangNhap.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormDoiMatKhau.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormMain.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLyHoaDon.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLyKhachHang.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLyNhanVien.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLySanPham.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormTaoHoaDon.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormThongKe.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormTrangChu.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.Properties.Resources.resources
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\QLBH-ThoiTrang\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csproj.CoreCompileInputs.cache
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.exe.config
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.exe
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\bin\Debug\QLBH-ThoiTrang.pdb
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csprojAssemblyReference.cache
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormDangNhap.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormDoiMatKhau.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormMain.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLyHoaDon.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLyKhachHang.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLyNhanVien.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormQuanLySanPham.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormTaoHoaDon.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormThongKe.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.FormTrangChu.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH_ThoiTrang.Properties.Resources.resources
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csproj.GenerateResource.cache
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.csproj.CoreCompileInputs.cache
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.exe
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\QLBH-ThoiTrang\obj\Debug\QLBH-ThoiTrang.pdb

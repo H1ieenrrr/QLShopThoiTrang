@@ -1,0 +1,6 @@
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.csprojAssemblyReference.cache
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\DTO_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\DTO_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.dll
+D:\Hoc_Tap\DuAn1\QLBH-ThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.pdb
