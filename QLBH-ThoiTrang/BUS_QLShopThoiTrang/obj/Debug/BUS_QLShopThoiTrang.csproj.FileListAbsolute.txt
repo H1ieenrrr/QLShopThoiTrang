@@ -20,3 +20,14 @@ C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiT
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CopyComplete
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.dll
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.pdb

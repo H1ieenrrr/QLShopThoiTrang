@@ -31,8 +31,8 @@ namespace QLBH_ThoiTrang
         {
             this.label6 = new System.Windows.Forms.Label();
             this.panelQuanLyHoaDon = new System.Windows.Forms.Panel();
-            this.dgvHoaDon = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
+            this.dgvHoaDon = new System.Windows.Forms.DataGridView();
             this.panelQuanLyHoaDon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHoaDon)).BeginInit();
             this.SuspendLayout();
@@ -40,11 +40,11 @@ namespace QLBH_ThoiTrang
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label6.Location = new System.Drawing.Point(405, 14);
+            this.label6.Location = new System.Drawing.Point(472, 11);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(191, 44);
+            this.label6.Size = new System.Drawing.Size(200, 46);
             this.label6.TabIndex = 20;
             this.label6.Text = "Thống Kê";
             // 
@@ -56,8 +56,19 @@ namespace QLBH_ThoiTrang
             this.panelQuanLyHoaDon.Controls.Add(this.dgvHoaDon);
             this.panelQuanLyHoaDon.Location = new System.Drawing.Point(12, 12);
             this.panelQuanLyHoaDon.Name = "panelQuanLyHoaDon";
-            this.panelQuanLyHoaDon.Size = new System.Drawing.Size(1048, 578);
+            this.panelQuanLyHoaDon.Size = new System.Drawing.Size(1239, 701);
             this.panelQuanLyHoaDon.TabIndex = 19;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label10.Location = new System.Drawing.Point(10, 65);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(259, 29);
+            this.label10.TabIndex = 90;
+            this.label10.Text = "Danh Sách Thống Kê";
             // 
             // dgvHoaDon
             // 
@@ -66,25 +77,14 @@ namespace QLBH_ThoiTrang
             this.dgvHoaDon.Name = "dgvHoaDon";
             this.dgvHoaDon.RowHeadersWidth = 51;
             this.dgvHoaDon.RowTemplate.Height = 24;
-            this.dgvHoaDon.Size = new System.Drawing.Size(1020, 463);
+            this.dgvHoaDon.Size = new System.Drawing.Size(1211, 583);
             this.dgvHoaDon.TabIndex = 15;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label10.Location = new System.Drawing.Point(10, 65);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(210, 24);
-            this.label10.TabIndex = 90;
-            this.label10.Text = "Danh Sách Thống Kê";
             // 
             // FormThongKe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1072, 590);
+            this.ClientSize = new System.Drawing.Size(1263, 725);
             this.Controls.Add(this.panelQuanLyHoaDon);
             this.Name = "FormThongKe";
             this.Text = "FormThongKe";

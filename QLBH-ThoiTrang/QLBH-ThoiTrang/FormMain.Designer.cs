@@ -75,7 +75,7 @@ namespace QLBH_ThoiTrang
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(226, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1090, 111);
+            this.panelTop.Size = new System.Drawing.Size(1281, 111);
             this.panelTop.TabIndex = 4;
             // 
             // label1
@@ -83,7 +83,7 @@ namespace QLBH_ThoiTrang
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(272, 12);
+            this.label1.Location = new System.Drawing.Point(383, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(478, 45);
             this.label1.TabIndex = 13;
@@ -97,7 +97,7 @@ namespace QLBH_ThoiTrang
             this.btnDangXuat.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnDangXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnDangXuat.Image")));
             this.btnDangXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDangXuat.Location = new System.Drawing.Point(899, 59);
+            this.btnDangXuat.Location = new System.Drawing.Point(1104, 63);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.btnDangXuat.Size = new System.Drawing.Size(165, 45);
@@ -115,7 +115,7 @@ namespace QLBH_ThoiTrang
             this.btnDangNhap.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnDangNhap.Image = ((System.Drawing.Image)(resources.GetObject("btnDangNhap.Image")));
             this.btnDangNhap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDangNhap.Location = new System.Drawing.Point(899, 8);
+            this.btnDangNhap.Location = new System.Drawing.Point(1104, 12);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.btnDangNhap.Size = new System.Drawing.Size(165, 45);
@@ -143,7 +143,7 @@ namespace QLBH_ThoiTrang
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(226, 734);
+            this.panel1.Size = new System.Drawing.Size(226, 883);
             this.panel1.TabIndex = 3;
             // 
             // panelThongKê
@@ -407,7 +407,7 @@ namespace QLBH_ThoiTrang
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.RoyalBlue;
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 672);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 821);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(226, 10);
             this.flowLayoutPanel1.TabIndex = 8;
@@ -420,7 +420,7 @@ namespace QLBH_ThoiTrang
             this.btnThoat.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.Image")));
             this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoat.Location = new System.Drawing.Point(0, 682);
+            this.btnThoat.Location = new System.Drawing.Point(0, 831);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnThoat.Size = new System.Drawing.Size(226, 52);
@@ -456,18 +456,17 @@ namespace QLBH_ThoiTrang
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(226, 111);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1090, 623);
+            this.panelMain.Size = new System.Drawing.Size(1281, 772);
             this.panelMain.TabIndex = 5;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1316, 734);
+            this.ClientSize = new System.Drawing.Size(1507, 883);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panelTop);
             this.Controls.Add(this.panel1);
-            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMain";

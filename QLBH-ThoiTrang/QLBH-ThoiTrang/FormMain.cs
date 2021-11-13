@@ -50,8 +50,8 @@ namespace QLBH_ThoiTrang
           //  openChildForm(new FormTrangChu());
             if (session == 1)
             {
-                btnDangNhap.Enabled = false;
-                btnDangXuat.Enabled = true;
+                btnDangNhap.Visible = false;
+                btnDangXuat.Visible = true;
                 btnHeThong.Visible = true;               
                 btnNhanVien.Visible = true;
                 btnHeThong.Visible = true;              
@@ -74,7 +74,7 @@ namespace QLBH_ThoiTrang
                 btnHeThong.Visible = false;
                 btnThongKe.Visible = false;
                 btnQuanLy.Visible = false;
-                btnDangXuat.Enabled = false;
+                btnDangXuat.Visible = false;
             }
         }
         private void showSubMenu(Panel subMenu)
@@ -205,9 +205,11 @@ namespace QLBH_ThoiTrang
         {
             if(MessageBox.Show("Bạn Có Muốn Đăng Xuất Không ","Thông Báo",MessageBoxButtons.YesNo)!= DialogResult.No)
             {
+                btnDangNhap.Visible = true;
                 session = 0;
                 this.Refresh();
                 ResetValue();
+                
                 openChildForm(new FormTrangChu());
             }
           

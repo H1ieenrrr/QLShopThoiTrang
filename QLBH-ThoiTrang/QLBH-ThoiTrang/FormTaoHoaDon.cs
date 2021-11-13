@@ -21,5 +21,10 @@ namespace QLBH_ThoiTrang
         {
 
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

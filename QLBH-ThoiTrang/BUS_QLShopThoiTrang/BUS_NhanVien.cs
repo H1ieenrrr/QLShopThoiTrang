@@ -53,5 +53,15 @@ namespace BUS_QLShopThoiTrang
         {
             return dal_nhanvien.DoiMatKhau(Email, MatKhauCu, MatKhauMoi);
         }
+
+        public DataTable DanhSachNV()
+        {
+            return dal_nhanvien.DanhSachNV();
+        }
+
+        public bool InsertNhanVien(DTO_NhanVien nv)
+        {
+            return dal_nhanvien.InsertNhanVien(nv);
+        }
     }
 }

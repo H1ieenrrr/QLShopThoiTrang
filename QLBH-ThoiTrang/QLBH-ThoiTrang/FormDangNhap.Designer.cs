@@ -31,6 +31,7 @@ namespace QLBH_ThoiTrang
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDangNhap));
             this.panelDoiMatKhau = new System.Windows.Forms.Panel();
+            this.pbOngVang = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -41,10 +42,9 @@ namespace QLBH_ThoiTrang
             this.btnDong = new System.Windows.Forms.Button();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
-            this.pbOngVang = new System.Windows.Forms.PictureBox();
             this.panelDoiMatKhau.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOngVang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelDoiMatKhau
@@ -62,10 +62,20 @@ namespace QLBH_ThoiTrang
             this.panelDoiMatKhau.Controls.Add(this.chkghinhotk);
             this.panelDoiMatKhau.Controls.Add(this.btnDong);
             this.panelDoiMatKhau.Controls.Add(this.btnDangNhap);
-            this.panelDoiMatKhau.Location = new System.Drawing.Point(176, 89);
+            this.panelDoiMatKhau.Location = new System.Drawing.Point(228, 124);
             this.panelDoiMatKhau.Name = "panelDoiMatKhau";
-            this.panelDoiMatKhau.Size = new System.Drawing.Size(709, 456);
+            this.panelDoiMatKhau.Size = new System.Drawing.Size(751, 484);
             this.panelDoiMatKhau.TabIndex = 1;
+            // 
+            // pbOngVang
+            // 
+            this.pbOngVang.Image = ((System.Drawing.Image)(resources.GetObject("pbOngVang.Image")));
+            this.pbOngVang.Location = new System.Drawing.Point(43, 72);
+            this.pbOngVang.Name = "pbOngVang";
+            this.pbOngVang.Size = new System.Drawing.Size(246, 342);
+            this.pbOngVang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbOngVang.TabIndex = 34;
+            this.pbOngVang.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -179,21 +189,11 @@ namespace QLBH_ThoiTrang
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label6.Location = new System.Drawing.Point(431, 25);
+            this.label6.Location = new System.Drawing.Point(495, 48);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(230, 44);
             this.label6.TabIndex = 25;
             this.label6.Text = "Đăng Nhập ";
-            // 
-            // pbOngVang
-            // 
-            this.pbOngVang.Image = ((System.Drawing.Image)(resources.GetObject("pbOngVang.Image")));
-            this.pbOngVang.Location = new System.Drawing.Point(43, 72);
-            this.pbOngVang.Name = "pbOngVang";
-            this.pbOngVang.Size = new System.Drawing.Size(246, 342);
-            this.pbOngVang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbOngVang.TabIndex = 34;
-            this.pbOngVang.TabStop = false;
             // 
             // FormDangNhap
             // 
@@ -202,7 +202,7 @@ namespace QLBH_ThoiTrang
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1072, 590);
+            this.ClientSize = new System.Drawing.Size(1281, 772);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.panelDoiMatKhau);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -211,8 +211,8 @@ namespace QLBH_ThoiTrang
             this.Load += new System.EventHandler(this.FormDangNhap_Load);
             this.panelDoiMatKhau.ResumeLayout(false);
             this.panelDoiMatKhau.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOngVang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

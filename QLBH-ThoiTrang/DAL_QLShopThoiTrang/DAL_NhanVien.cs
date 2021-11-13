@@ -167,5 +167,58 @@ namespace DAL_QLShopThoiTrang
             }
             return false;
         }
+
+        public DataTable DanhSachNV()
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "DanhSachNV";
+                cmd.Connection = conn;
+                DataTable dtaNV = new DataTable();
+                dtaNV.Load(cmd.ExecuteReader());
+                return dtaNV;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            
+        }
+
+        public bool InsertNhanVien(DTO_NhanVien nv)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "InsertNhanVien";
+                cmd.Parameters.AddWithValue("Email", nv.EmailNV);
+                cmd.Parameters.AddWithValue("TenNV", nv.TenNhanVien);
+                cmd.Parameters.AddWithValue("DiaChi", nv.diaChi);
+                cmd.Parameters.AddWithValue("DienThoai", nv.dienThoai);
+                cmd.Parameters.AddWithValue("HinhAnh", nv.hinhAnh);
+                cmd.Parameters.AddWithValue("VaiTro", nv.vaiTro);
+                
+
+                if (cmd.ExecuteNonQuery() > 0)
+                
+                    return true;
+                
+            }
+            catch(Exception e)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
+        }
+        
     }
 }

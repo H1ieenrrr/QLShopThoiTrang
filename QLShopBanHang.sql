@@ -11,6 +11,7 @@ create table NhanVien(
 		TenNV       nvarchar(50)  NOT NULL,
 		DiaChi      nvarchar(100) NOT NULL,
 		DienThoai   varchar(15)   NOT NULL,
+		HinhAnh     varchar(400) NOT NULL,
 		VaiTro      tinyint       NOT NULL,
 		MatKhau     varchar(50) CONSTRAINT [df_NV_MK] DEFAULT (23315424196402035621.) NOT NULL,
 );
@@ -32,6 +33,7 @@ create table SanPham(
 		Size        nvarchar(5)    NOT NULL,
 		NgayNhap    date           NOT NULL,
 		SoLuong     int            NOT NULL,
+		HinhAnh     varchar(400)  NOT NULL,
 		MoTa        nvarchar(50)   NOT NULL,
 	    MaNV        varchar(20)    NOT NULL,
 	    FOREIGN KEY (MaNV) references NhanVien(MaNV)
@@ -120,6 +122,110 @@ end
 else
 return -1
    
+--Nhân Viên ----------------------------------------------------
+
+--Danh Sách NhanViên --
+
+create PROCEDURE DanhSachNV 
+as
+Begin
+  SELECT Email, TenNV, DiaChi, DienThoai, HinhAnh, VaiTro from NhanVien
+
+ END
+
+ --Thêm Dữ Liệu Nhan Vien------
+ drop Procedure InsertNhanVien
+ GO
+ create PROCEDURE InsertNhanVien
+				@Email       varchar(50)   ,
+				@TenNV       nvarchar(50)  ,
+				@DiaChi      nvarchar(100) ,
+				@DienThoai   varchar(15)   ,
+				@HinhAnh     varchar(400) ,
+				@VaiTro      tinyint       
+AS
+Begin
+	DECLARE @MaNv varchar(20);
+DECLARE @ID INT;
+
+SELECT @ID = ISNULL(MAX(ID),0) + 1 FROM NhanVien
+SELECT @MaNv = 'NV' + RIGHT('0000' + CAST(@ID AS varchar(4)), 4)
+		INSERT INTO NhanVien(MaNV, Email, TenNV, DiaChi, DienThoai, HinhAnh, VaiTro)
+			VALUES (@MaNV ,@Email, @TenNV,  @DiaChi, @DienThoai, @HinhAnh, @VaiTro)
+END
+
+
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------Sản Phẩm---------------------------------------------------------
+--------------Danh Sách---------------------
+create PROCEDURE DanhSachSP
+as
+Begin
+  SELECT MaSP, TenSP, GiaSP, Size, NgayNhap, SoLuong, HinhAnh, MoTa From SanPham
+
+ END
+
+-----------------Thêm SP--------------------------
+Create PROCEDURE ThemSP
+			@TenSP       nvarchar(50) ,
+			@GiaSP       float         ,
+			@Size        nvarchar(5)   ,
+			@NgayNhap    date         ,
+			@SoLuong     int           ,
+			@HinhAnh     varchar(400)  ,
+			@MoTa        nvarchar(50) ,
+			@Email       varchar(20)
+as
+begin 
+declare @MaNV varchar(20);
+select @MaNV = MaNV from NhanVien where Email = @Email
+Insert into SanPham(TenSP, GiaSP, Size, NgayNhap, SoLuong, HinhAnh,MoTa,MaNV)
+		values(@TenSP, @GiaSP, @Size, @NgayNhap, @SoLuong, @HinhAnh,@MoTa,@MaNV)
+END
+
+------------------Sửa SP--------------------------------------------------------------
+
+Create PROCEDURE SuaSP
+            @MaSP        int,
+		    @TenSP       nvarchar(50) ,
+			@GiaSP       float         ,
+			@Size        nvarchar(5)   ,
+			@NgayNhap    date         ,
+			@SoLuong     int           ,
+			@HinhAnh     varchar(400)  ,
+			@MoTa        nvarchar(50) 
+as
+Begin
+    UPDATE SanPham SET TenSP=@TenSP, GiaSP=@GiaSP, Size=@Size, NgayNhap=@NgayNhap, SoLuong=@SoLuong,
+							HinhAnh=@HinhAnh, MoTa=@MoTa
+			WHERE MaSP=@MaSP
+END
+
+----------------Xóa Sản Phẩm ----------------------------
+
+Create PROCEDURE XoaSP
+             @MaSP varchar(5)
+as
+BEGIN
+     DELETE FROM SanPham WHERE MaSP = @MaSP
+
+END
+
+-----------------Tìm Kiếm Sản Phẩm ---------------------
+Create PROCEDURE TimKiemSP
+			@TenSP nvarchar(50)
+as
+begin
+			SET NOCOUNT ON;
+			SELECT MaSP, TenSP, GiaSP, Size, NgayNhap, SoLuong, HinhAnh, MoTa 
+			From SanPham WHERE TenSP like '%' + @TenSP + '%'
+END
+
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 insert into NhanVien values ('1','driverhuyhoa@gmail.com', N'Huy Hoà', N'Đồng Nai','0335592943', 1,'3244185981728979115075721453575112')

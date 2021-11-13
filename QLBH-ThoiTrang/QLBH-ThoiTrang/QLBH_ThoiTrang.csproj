@@ -177,5 +177,9 @@
       <Name>DTO_QLShopThoiTrang</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ImagesNhanVien\" />
+    <Folder Include="ImagesSP\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

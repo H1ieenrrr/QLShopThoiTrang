@@ -34,7 +34,7 @@ namespace QLBH_ThoiTrang
                 FormMain.mail = nv.EmailNV;
                 DataTable dt = busNhanVien.VaiTroNhanVien(nv.EmailNV);
                 vaitro = dt.Rows[0][0].ToString();
-                MessageBox.Show("Đăng nhập thành công");
+                //MessageBox.Show("Đăng nhập thành công");
                 FormMain.session = 1;
                 this.Close();
             }

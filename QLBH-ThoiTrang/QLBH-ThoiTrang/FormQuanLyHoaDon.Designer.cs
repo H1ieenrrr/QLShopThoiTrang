@@ -89,183 +89,184 @@ namespace QLBH_ThoiTrang
             this.panelQuanLyHoaDon.Controls.Add(this.btnXoa);
             this.panelQuanLyHoaDon.Controls.Add(this.btnThem);
             this.panelQuanLyHoaDon.Controls.Add(this.dgvHoaDon);
+            this.panelQuanLyHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelQuanLyHoaDon.Location = new System.Drawing.Point(12, 45);
             this.panelQuanLyHoaDon.Name = "panelQuanLyHoaDon";
-            this.panelQuanLyHoaDon.Size = new System.Drawing.Size(1048, 542);
+            this.panelQuanLyHoaDon.Size = new System.Drawing.Size(1239, 677);
             this.panelQuanLyHoaDon.TabIndex = 0;
             // 
             // cbtenSanPham
             // 
-            this.cbtenSanPham.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbtenSanPham.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbtenSanPham.FormattingEnabled = true;
-            this.cbtenSanPham.Location = new System.Drawing.Point(717, 62);
+            this.cbtenSanPham.Location = new System.Drawing.Point(830, 61);
             this.cbtenSanPham.Name = "cbtenSanPham";
-            this.cbtenSanPham.Size = new System.Drawing.Size(308, 27);
+            this.cbtenSanPham.Size = new System.Drawing.Size(367, 37);
             this.cbtenSanPham.TabIndex = 90;
             this.cbtenSanPham.Text = "Danh Mục";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label10.Location = new System.Drawing.Point(10, 275);
+            this.label10.Location = new System.Drawing.Point(9, 309);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(200, 24);
+            this.label10.Size = new System.Drawing.Size(229, 29);
             this.label10.TabIndex = 89;
             this.label10.Text = "Danh Sách Hóa Đơn";
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiem.Location = new System.Drawing.Point(717, 196);
+            this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimKiem.Location = new System.Drawing.Point(830, 206);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(179, 30);
+            this.txtTimKiem.Size = new System.Drawing.Size(238, 34);
             this.txtTimKiem.TabIndex = 88;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label9.Location = new System.Drawing.Point(9, 9);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(216, 26);
+            this.label9.Size = new System.Drawing.Size(224, 29);
             this.label9.TabIndex = 87;
             this.label9.Text = "Thông Tin Hóa Đơn";
             // 
             // dateTimeHoaDon
             // 
-            this.dateTimeHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimeHoaDon.Location = new System.Drawing.Point(717, 103);
+            this.dateTimeHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimeHoaDon.Location = new System.Drawing.Point(830, 102);
             this.dateTimeHoaDon.Name = "dateTimeHoaDon";
-            this.dateTimeHoaDon.Size = new System.Drawing.Size(308, 27);
+            this.dateTimeHoaDon.Size = new System.Drawing.Size(367, 34);
             this.dateTimeHoaDon.TabIndex = 86;
             // 
             // txtDonGia
             // 
-            this.txtDonGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDonGia.Location = new System.Drawing.Point(717, 149);
+            this.txtDonGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDonGia.Location = new System.Drawing.Point(830, 148);
             this.txtDonGia.Name = "txtDonGia";
-            this.txtDonGia.Size = new System.Drawing.Size(308, 30);
+            this.txtDonGia.Size = new System.Drawing.Size(367, 34);
             this.txtDonGia.TabIndex = 85;
             // 
             // txtTenKhachHang
             // 
-            this.txtTenKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenKhachHang.Location = new System.Drawing.Point(203, 196);
+            this.txtTenKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKhachHang.Location = new System.Drawing.Point(226, 194);
             this.txtTenKhachHang.Name = "txtTenKhachHang";
-            this.txtTenKhachHang.Size = new System.Drawing.Size(301, 30);
+            this.txtTenKhachHang.Size = new System.Drawing.Size(339, 34);
             this.txtTenKhachHang.TabIndex = 83;
             // 
             // txtSoLuong
             // 
-            this.txtSoLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoLuong.Location = new System.Drawing.Point(203, 106);
+            this.txtSoLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoLuong.Location = new System.Drawing.Point(226, 104);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(301, 30);
+            this.txtSoLuong.Size = new System.Drawing.Size(339, 34);
             this.txtSoLuong.TabIndex = 82;
             // 
             // txtNhanVienNhap
             // 
-            this.txtNhanVienNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNhanVienNhap.Location = new System.Drawing.Point(203, 151);
+            this.txtNhanVienNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNhanVienNhap.Location = new System.Drawing.Point(226, 149);
             this.txtNhanVienNhap.Name = "txtNhanVienNhap";
-            this.txtNhanVienNhap.Size = new System.Drawing.Size(301, 30);
+            this.txtNhanVienNhap.Size = new System.Drawing.Size(339, 34);
             this.txtNhanVienNhap.TabIndex = 81;
             // 
             // txtMaHoaDon
             // 
-            this.txtMaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaHoaDon.Location = new System.Drawing.Point(203, 62);
+            this.txtMaHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaHoaDon.Location = new System.Drawing.Point(226, 60);
             this.txtMaHoaDon.Name = "txtMaHoaDon";
-            this.txtMaHoaDon.Size = new System.Drawing.Size(301, 30);
+            this.txtMaHoaDon.Size = new System.Drawing.Size(339, 34);
             this.txtMaHoaDon.TabIndex = 80;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(530, 152);
+            this.label8.Location = new System.Drawing.Point(602, 152);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(89, 25);
+            this.label8.Size = new System.Drawing.Size(106, 29);
             this.label8.TabIndex = 79;
             this.label8.Text = "Đơn Giá:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(530, 107);
+            this.label7.Location = new System.Drawing.Point(602, 107);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(184, 25);
+            this.label7.Size = new System.Drawing.Size(221, 29);
             this.label7.TabIndex = 78;
             this.label7.Text = "Ngày Lập Hóa Đơn:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(530, 63);
+            this.label5.Location = new System.Drawing.Point(602, 63);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 25);
+            this.label5.Size = new System.Drawing.Size(178, 29);
             this.label5.TabIndex = 77;
             this.label5.Text = "Tên Sản Phẩm:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label2.Location = new System.Drawing.Point(26, 199);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(167, 25);
+            this.label2.Size = new System.Drawing.Size(198, 29);
             this.label2.TabIndex = 76;
             this.label2.Text = "Tên Khách Hàng:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label1.Location = new System.Drawing.Point(26, 154);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 25);
+            this.label1.Size = new System.Drawing.Size(194, 29);
             this.label1.TabIndex = 75;
             this.label1.Text = "Nhân Viên Nhập:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label4.Location = new System.Drawing.Point(26, 109);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 25);
+            this.label4.Size = new System.Drawing.Size(122, 29);
             this.label4.TabIndex = 74;
             this.label4.Text = "Số Lượng:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label3.Location = new System.Drawing.Point(26, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(128, 25);
+            this.label3.Size = new System.Drawing.Size(152, 29);
             this.label3.TabIndex = 73;
             this.label3.Text = "Mã Hóa Đơn:";
             // 
             // btnTimKiem
             // 
             this.btnTimKiem.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimKiem.Location = new System.Drawing.Point(906, 193);
+            this.btnTimKiem.Location = new System.Drawing.Point(1081, 199);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(119, 41);
             this.btnTimKiem.TabIndex = 72;
@@ -275,10 +276,10 @@ namespace QLBH_ThoiTrang
             // btnDong
             // 
             this.btnDong.BackColor = System.Drawing.Color.LightCoral;
-            this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDong.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDong.Location = new System.Drawing.Point(906, 247);
+            this.btnDong.Location = new System.Drawing.Point(1081, 269);
             this.btnDong.Name = "btnDong";
             this.btnDong.Size = new System.Drawing.Size(119, 41);
             this.btnDong.TabIndex = 71;
@@ -288,10 +289,10 @@ namespace QLBH_ThoiTrang
             // btnLuu
             // 
             this.btnLuu.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuu.Location = new System.Drawing.Point(623, 247);
+            this.btnLuu.Location = new System.Drawing.Point(798, 269);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(111, 41);
             this.btnLuu.TabIndex = 68;
@@ -301,10 +302,10 @@ namespace QLBH_ThoiTrang
             // btnSua
             // 
             this.btnSua.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(490, 247);
+            this.btnSua.Location = new System.Drawing.Point(665, 269);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(109, 41);
             this.btnSua.TabIndex = 67;
@@ -314,10 +315,10 @@ namespace QLBH_ThoiTrang
             // btnXoa
             // 
             this.btnXoa.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(764, 247);
+            this.btnXoa.Location = new System.Drawing.Point(939, 269);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(116, 41);
             this.btnXoa.TabIndex = 66;
@@ -327,10 +328,10 @@ namespace QLBH_ThoiTrang
             // btnThem
             // 
             this.btnThem.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnThem.Location = new System.Drawing.Point(353, 247);
+            this.btnThem.Location = new System.Drawing.Point(524, 269);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(117, 41);
             this.btnThem.TabIndex = 65;
@@ -343,11 +344,11 @@ namespace QLBH_ThoiTrang
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHoaDon.Location = new System.Drawing.Point(14, 306);
+            this.dgvHoaDon.Location = new System.Drawing.Point(14, 352);
             this.dgvHoaDon.Name = "dgvHoaDon";
             this.dgvHoaDon.RowHeadersWidth = 51;
             this.dgvHoaDon.RowTemplate.Height = 24;
-            this.dgvHoaDon.Size = new System.Drawing.Size(1020, 233);
+            this.dgvHoaDon.Size = new System.Drawing.Size(1211, 322);
             this.dgvHoaDon.TabIndex = 15;
             // 
             // label6
@@ -355,7 +356,7 @@ namespace QLBH_ThoiTrang
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label6.Location = new System.Drawing.Point(341, -2);
+            this.label6.Location = new System.Drawing.Point(437, -2);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(336, 44);
             this.label6.TabIndex = 18;
@@ -365,7 +366,7 @@ namespace QLBH_ThoiTrang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1072, 590);
+            this.ClientSize = new System.Drawing.Size(1263, 725);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.panelQuanLyHoaDon);
             this.Name = "FormQuanLyHoaDon";

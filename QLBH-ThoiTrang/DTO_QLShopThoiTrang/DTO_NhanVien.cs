@@ -8,67 +8,68 @@ namespace DTO_QLShopThoiTrang
 {
     public class DTO_NhanVien
     {
-        private string tenNhanVien;
-        private string emailNV;
-        private string diaChi;
-        private string dienThoai;
-        private int vaiTro;
+        private string TenNV;
+        private string Email;
+        private string DiaChi;
+        private string DienThoai;
+        private int VaiTro;
         private int tinhTrang;
         private string matKhau;
+        private string HinhAnh;
 
         public string TenNhanVien
         {
             get
             {
-                return tenNhanVien;
+                return TenNV;
             }
             set
             {
-                tenNhanVien = value;
+                TenNV = value;
             }
         }
         public string EmailNV
         {
             get
             {
-                return emailNV;
+                return Email;
             }
             set
             {
-                emailNV = value;
+                Email = value;
             }
         }
-        public string DiaChi
+        public string diaChi
         {
             get
             {
-                return diaChi;
+                return DiaChi;
             }
             set
             {
-                diaChi = value;
+                DiaChi = value;
             }
         }
-        public string DienThoai
+        public string dienThoai
         {
             get
             {
-                return dienThoai;
+                return DienThoai;
             }
             set
             {
-                dienThoai = value;
+                DienThoai = value;
             }
         }
-        public int VaiTro
+        public int vaiTro
         {
             get
             {
-                return vaiTro;
+                return VaiTro;
             }
             set
             {
-                vaiTro = value;
+                VaiTro = value;
             }
         }
         public int TinhTrang
@@ -93,14 +94,36 @@ namespace DTO_QLShopThoiTrang
                 matKhau = value;
             }
         }
-        public DTO_NhanVien(string email, string tenNhanVien, string diaChi, string dienThoai, int vaiTro, int tinhTrang)
+        public string hinhAnh
         {
-            this.tenNhanVien = tenNhanVien;
-            this.diaChi = diaChi;
-            this.dienThoai = dienThoai;
-            this.vaiTro = vaiTro;
-            this.EmailNV = email;
-            this.tinhTrang = tinhTrang;          
+            get
+            {
+                return HinhAnh;
+            }
+            set
+            {
+                HinhAnh = value;
+            }
+        }
+        public DTO_NhanVien(string Email, string TenNV, string DiaChi, string DienThoai, string HinhAnh, int VaiTro, string matKhau)
+        {
+            this.Email = Email;
+            this.TenNV = TenNV;
+            this.DiaChi = DiaChi;
+            this.DienThoai = DienThoai;
+            this.HinhAnh = HinhAnh;
+            this.VaiTro = VaiTro;
+            this.matKhau = matKhau;
+        }
+
+        public DTO_NhanVien(string Email, string TenNV, string DiaChi, string DienThoai, string HinhAnh, int VaiTro)
+        {
+            this.Email = Email;
+            this.TenNV = TenNV;
+            this.DiaChi = DiaChi;
+            this.DienThoai = DienThoai;
+            this.HinhAnh = HinhAnh;
+            this.VaiTro = VaiTro;
         }
         public DTO_NhanVien()
         {
