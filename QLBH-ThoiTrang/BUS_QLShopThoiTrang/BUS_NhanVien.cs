@@ -63,5 +63,18 @@ namespace BUS_QLShopThoiTrang
         {
             return dal_nhanvien.InsertNhanVien(nv);
         }
+        public bool UpdateNV(DTO_NhanVien nv)
+        {
+            return dal_nhanvien.UpdateNV(nv);
+        }
+        public bool DeleteNV(string Email)
+        {
+            return dal_nhanvien.DeleteNV(Email);
+        }
+
+        public DataTable SearchNV(string TenNV)
+        {
+            return dal_nhanvien.SearchNV(TenNV);
+        }
     }
 }

@@ -134,9 +134,9 @@ Begin
  END
 
  --Thêm Dữ Liệu Nhan Vien------
- drop Procedure InsertNhanVien
+ drop Procedure ThemNV
  GO
- create PROCEDURE InsertNhanVien
+ create PROCEDURE ThemNV
 				@Email       varchar(50)   ,
 				@TenNV       nvarchar(50)  ,
 				@DiaChi      nvarchar(100) ,
@@ -145,14 +145,52 @@ Begin
 				@VaiTro      tinyint       
 AS
 Begin
-	DECLARE @MaNv varchar(20);
+DECLARE @MaNV varchar(20);
 DECLARE @ID INT;
 
 SELECT @ID = ISNULL(MAX(ID),0) + 1 FROM NhanVien
-SELECT @MaNv = 'NV' + RIGHT('0000' + CAST(@ID AS varchar(4)), 4)
-		INSERT INTO NhanVien(MaNV, Email, TenNV, DiaChi, DienThoai, HinhAnh, VaiTro)
-			VALUES (@MaNV ,@Email, @TenNV,  @DiaChi, @DienThoai, @HinhAnh, @VaiTro)
+SELECT @MaNV = 'NV' + RIGHT('0000' + CAST(@ID AS varchar(4)), 4)
+INSERT INTO NhanVien(MaNV,Email, TenNV, DiaChi, DienThoai, HinhAnh, VaiTro)
+			VALUES (@MaNV,@Email,@TenNV,@DiaChi,@DienThoai,@HinhAnh,@VaiTro)
 END
+
+-----------Sửa Nhân Viên-----------------------------------------------------------
+create PROCEDURE SuaNV
+				@Email       varchar(50)   ,
+				@TenNV       nvarchar(50)  ,
+				@DiaChi      nvarchar(100) ,
+				@DienThoai   varchar(15)   ,
+				@HinhAnh     varchar(400) ,
+				@VaiTro      tinyint       
+AS
+Begin
+Update NhanVien SET TenNV=@TenNV, DiaChi=@DiaChi, DienThoai=@DienThoai, HinhAnh=@HinhAnh, VaiTro=@VaiTro
+			  WHERE Email=@Email
+END
+
+------------Xóa Nhân Viên--------------------------------------------------------------
+CREATE PROCEDURE XoaNV
+
+            @Email   varchar (50)     
+as
+BEGIN
+DELETE FROM NhanVien WHERE Email=@Email
+
+END
+
+------------Tìm Kiếm Nhân Viên----------------------------------------------------------------
+CREATE PROCEDURE TimKiemNV
+@TenNV nvarchar(50)
+AS
+BEGIN
+      SET NOCOUNT ON;
+      SELECT Email, TenNV, DiaChi, DienThoai, HinhAnh, VaiTro from NhanVien 
+       where TenNV like '%' + @TenNV + '%'
+END
+
+
+
+
 
 
 -----------------------------------------------------------------------------------------------------------------

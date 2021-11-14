@@ -194,20 +194,17 @@ namespace DAL_QLShopThoiTrang
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand();
+                cmd.Connection = conn;
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.CommandText = "InsertNhanVien";
+                cmd.CommandText = "ThemNV";
                 cmd.Parameters.AddWithValue("Email", nv.EmailNV);
                 cmd.Parameters.AddWithValue("TenNV", nv.TenNhanVien);
                 cmd.Parameters.AddWithValue("DiaChi", nv.diaChi);
                 cmd.Parameters.AddWithValue("DienThoai", nv.dienThoai);
                 cmd.Parameters.AddWithValue("HinhAnh", nv.hinhAnh);
-                cmd.Parameters.AddWithValue("VaiTro", nv.vaiTro);
-                
-
-                if (cmd.ExecuteNonQuery() > 0)
-                
-                    return true;
-                
+                cmd.Parameters.AddWithValue("VaiTro", nv.vaiTro);               
+                if (cmd.ExecuteNonQuery() > 0)               
+                    return true;               
             }
             catch(Exception e)
             {
@@ -218,6 +215,81 @@ namespace DAL_QLShopThoiTrang
                 conn.Close();
             }
             return false;
+        }
+
+        public bool UpdateNV(DTO_NhanVien nv)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "SuaNV";
+                cmd.Parameters.AddWithValue("Email", nv.EmailNV);
+                cmd.Parameters.AddWithValue("TenNV", nv.TenNhanVien);
+                cmd.Parameters.AddWithValue("DiaChi", nv.diaChi);
+                cmd.Parameters.AddWithValue("DienThoai", nv.dienThoai);
+                cmd.Parameters.AddWithValue("HinhAnh", nv.hinhAnh);
+                cmd.Parameters.AddWithValue("VaiTro", nv.vaiTro);
+
+                if (cmd.ExecuteNonQuery() > 0)
+                    return true;
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
+        }
+
+        public bool DeleteNV(string Email)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "XoaNV";
+                cmd.Parameters.AddWithValue("Email",Email);
+
+                if (cmd.ExecuteNonQuery() > 0)
+                    return true;
+            }
+            catch (Exception e)
+            {
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
+        }
+
+        public DataTable SearchNV(string TenNV)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = conn;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "TimKiemNV";
+                cmd.Parameters.AddWithValue("TenNV",TenNV);
+                DataTable dtaNV = new DataTable();
+                dtaNV.Load(cmd.ExecuteReader());
+                return dtaNV;
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
         
     }
