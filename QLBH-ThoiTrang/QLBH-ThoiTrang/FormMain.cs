@@ -208,6 +208,10 @@ namespace QLBH_ThoiTrang
                 btnDangNhap.Visible = true;
                 session = 0;
                 this.Refresh();
+                panelHeThong.Visible = false;
+                panelNhanVien.Visible = false;
+                panelQuanLy.Visible = false;
+                panelThongKê.Visible = false;
                 ResetValue();
                 
                 openChildForm(new FormTrangChu());

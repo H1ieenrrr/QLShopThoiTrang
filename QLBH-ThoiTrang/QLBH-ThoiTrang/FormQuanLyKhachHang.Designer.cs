@@ -38,8 +38,8 @@ namespace QLBH_ThoiTrang
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
-            this.txtTenNhanVien = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtTenKH = new System.Windows.Forms.TextBox();
+            this.txtDienThoai = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -76,8 +76,8 @@ namespace QLBH_ThoiTrang
             this.panelQuanLyKhachHang.Controls.Add(this.txtTimKiem);
             this.panelQuanLyKhachHang.Controls.Add(this.label9);
             this.panelQuanLyKhachHang.Controls.Add(this.txtDiaChi);
-            this.panelQuanLyKhachHang.Controls.Add(this.txtTenNhanVien);
-            this.panelQuanLyKhachHang.Controls.Add(this.txtEmail);
+            this.panelQuanLyKhachHang.Controls.Add(this.txtTenKH);
+            this.panelQuanLyKhachHang.Controls.Add(this.txtDienThoai);
             this.panelQuanLyKhachHang.Controls.Add(this.label5);
             this.panelQuanLyKhachHang.Controls.Add(this.label1);
             this.panelQuanLyKhachHang.Controls.Add(this.label4);
@@ -130,6 +130,7 @@ namespace QLBH_ThoiTrang
             this.btnHuy.TabIndex = 90;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = false;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // label10
             // 
@@ -171,21 +172,21 @@ namespace QLBH_ThoiTrang
             this.txtDiaChi.TabIndex = 84;
             this.txtDiaChi.TextChanged += new System.EventHandler(this.txtDiaChi_TextChanged);
             // 
-            // txtTenNhanVien
+            // txtTenKH
             // 
-            this.txtTenNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNhanVien.Location = new System.Drawing.Point(238, 132);
-            this.txtTenNhanVien.Name = "txtTenNhanVien";
-            this.txtTenNhanVien.Size = new System.Drawing.Size(301, 34);
-            this.txtTenNhanVien.TabIndex = 82;
+            this.txtTenKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKH.Location = new System.Drawing.Point(238, 132);
+            this.txtTenKH.Name = "txtTenKH";
+            this.txtTenKH.Size = new System.Drawing.Size(301, 34);
+            this.txtTenKH.TabIndex = 82;
             // 
-            // txtEmail
+            // txtDienThoai
             // 
-            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmail.Location = new System.Drawing.Point(238, 78);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(301, 34);
-            this.txtEmail.TabIndex = 80;
+            this.txtDienThoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDienThoai.Location = new System.Drawing.Point(238, 78);
+            this.txtDienThoai.Name = "txtDienThoai";
+            this.txtDienThoai.Size = new System.Drawing.Size(301, 34);
+            this.txtDienThoai.TabIndex = 80;
             // 
             // label5
             // 
@@ -256,6 +257,7 @@ namespace QLBH_ThoiTrang
             this.btnDong.TabIndex = 71;
             this.btnDong.Text = "Đóng";
             this.btnDong.UseVisualStyleBackColor = false;
+            this.btnDong.Click += new System.EventHandler(this.btnDong_Click);
             // 
             // btnLuu
             // 
@@ -269,6 +271,7 @@ namespace QLBH_ThoiTrang
             this.btnLuu.TabIndex = 68;
             this.btnLuu.Text = "Lưu";
             this.btnLuu.UseVisualStyleBackColor = false;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnSua
             // 
@@ -282,6 +285,7 @@ namespace QLBH_ThoiTrang
             this.btnSua.TabIndex = 67;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -295,6 +299,7 @@ namespace QLBH_ThoiTrang
             this.btnXoa.TabIndex = 66;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
@@ -308,6 +313,7 @@ namespace QLBH_ThoiTrang
             this.btnThem.TabIndex = 65;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // dgvKhachHang
             // 
@@ -318,6 +324,7 @@ namespace QLBH_ThoiTrang
             this.dgvKhachHang.RowTemplate.Height = 24;
             this.dgvKhachHang.Size = new System.Drawing.Size(1207, 290);
             this.dgvKhachHang.TabIndex = 15;
+            this.dgvKhachHang.Click += new System.EventHandler(this.dgvKhachHang_Click);
             // 
             // FormQuanLyKhachHang
             // 
@@ -328,6 +335,7 @@ namespace QLBH_ThoiTrang
             this.Controls.Add(this.panelQuanLyKhachHang);
             this.Name = "FormQuanLyKhachHang";
             this.Text = "FormQuanLyKhachHang";
+            this.Load += new System.EventHandler(this.FormQuanLyKhachHang_Load);
             this.panelQuanLyKhachHang.ResumeLayout(false);
             this.panelQuanLyKhachHang.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).EndInit();
@@ -347,8 +355,8 @@ namespace QLBH_ThoiTrang
         private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.TextBox txtTenNhanVien;
-        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtTenKH;
+        private System.Windows.Forms.TextBox txtDienThoai;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;

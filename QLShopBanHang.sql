@@ -125,7 +125,7 @@ return -1
 --Nhân Viên ----------------------------------------------------
 
 --Danh Sách NhanViên --
-
+go
 create PROCEDURE DanhSachNV 
 as
 Begin
@@ -134,7 +134,7 @@ Begin
  END
 
  --Thêm Dữ Liệu Nhan Vien------
- drop Procedure ThemNV
+ 
  GO
  create PROCEDURE ThemNV
 				@Email       varchar(50)   ,
@@ -153,7 +153,7 @@ SELECT @MaNV = 'NV' + RIGHT('0000' + CAST(@ID AS varchar(4)), 4)
 INSERT INTO NhanVien(MaNV,Email, TenNV, DiaChi, DienThoai, HinhAnh, VaiTro)
 			VALUES (@MaNV,@Email,@TenNV,@DiaChi,@DienThoai,@HinhAnh,@VaiTro)
 END
-
+go
 -----------Sửa Nhân Viên-----------------------------------------------------------
 create PROCEDURE SuaNV
 				@Email       varchar(50)   ,
@@ -167,7 +167,7 @@ Begin
 Update NhanVien SET TenNV=@TenNV, DiaChi=@DiaChi, DienThoai=@DienThoai, HinhAnh=@HinhAnh, VaiTro=@VaiTro
 			  WHERE Email=@Email
 END
-
+go
 ------------Xóa Nhân Viên--------------------------------------------------------------
 CREATE PROCEDURE XoaNV
 
@@ -177,7 +177,7 @@ BEGIN
 DELETE FROM NhanVien WHERE Email=@Email
 
 END
-
+go
 ------------Tìm Kiếm Nhân Viên----------------------------------------------------------------
 CREATE PROCEDURE TimKiemNV
 @TenNV nvarchar(50)
@@ -189,9 +189,43 @@ BEGIN
 END
 
 
-
-
-
+go
+-----------------------------------------------------------------------------------------------------------------
+-----------------------------Khách Hàng------------------------------------------------------------
+-- Hiển thị danh sách khách hàng
+CREATE PROCEDURE ListKH
+AS
+BEGIN
+Select DienThoai, TenKH, DiaChi,GioiTinh from KhachHang
+END
+Go
+--Thêm khách hàng
+CREATE PROCEDURE ThemKH
+@dienthoai varchar(15), @tenkh nvarchar(50), @diachi nvarchar(50), @gioitinh nvarchar(50), @email varchar(100)
+AS
+BEGIN
+declare @MaNV varchar(20);
+select @MaNV = MaNV from NhanVien where @email = Email
+insert into KhachHang(DienThoai, TenKH, DiaChi,GioiTinh,MaNV) values(@dienthoai,@tenkh,@diachi,@gioitinh,@MaNV)
+END
+GO
+--Sửa khách hàng
+CREATE PROCEDURE SuaKH
+@dienthoai varchar(15), @tenkh nvarchar(50), @diachi nvarchar(50), @gioitinh nvarchar(50)
+AS
+BEGIN
+UPDATE KhachHang set TenKH = @tenkh,DiaChi =@diachi, GioiTinh = @gioitinh
+WHERE DienThoai = @dienthoai
+END
+GO
+-- Xoá khách hàng
+CREATE PROCEDURE XoaKH
+@dienthoai varchar(15)
+AS
+BEGIN
+delete from KhachHang where DienThoai = @dienthoai
+END
+GO
 
 -----------------------------------------------------------------------------------------------------------------
 -----------------------------Sản Phẩm---------------------------------------------------------
@@ -202,7 +236,7 @@ Begin
   SELECT MaSP, TenSP, GiaSP, Size, NgayNhap, SoLuong, HinhAnh, MoTa From SanPham
 
  END
-
+ go
 -----------------Thêm SP--------------------------
 Create PROCEDURE ThemSP
 			@TenSP       nvarchar(50) ,
@@ -220,7 +254,7 @@ select @MaNV = MaNV from NhanVien where Email = @Email
 Insert into SanPham(TenSP, GiaSP, Size, NgayNhap, SoLuong, HinhAnh,MoTa,MaNV)
 		values(@TenSP, @GiaSP, @Size, @NgayNhap, @SoLuong, @HinhAnh,@MoTa,@MaNV)
 END
-
+go
 ------------------Sửa SP--------------------------------------------------------------
 
 Create PROCEDURE SuaSP
@@ -240,7 +274,7 @@ Begin
 END
 
 ----------------Xóa Sản Phẩm ----------------------------
-
+go
 Create PROCEDURE XoaSP
              @MaSP varchar(5)
 as
@@ -248,7 +282,7 @@ BEGIN
      DELETE FROM SanPham WHERE MaSP = @MaSP
 
 END
-
+go
 -----------------Tìm Kiếm Sản Phẩm ---------------------
 Create PROCEDURE TimKiemSP
 			@TenSP nvarchar(50)
@@ -258,11 +292,16 @@ begin
 			SELECT MaSP, TenSP, GiaSP, Size, NgayNhap, SoLuong, HinhAnh, MoTa 
 			From SanPham WHERE TenSP like '%' + @TenSP + '%'
 END
-
+go
 --------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------
 
-
+CREATE PROCEDURE HienThiDanhSachSP
+AS
+BEGIN
+Select MaSP, TenSP, GiaSP, SoLuong from SanPham
+END
+GO
 
 
 

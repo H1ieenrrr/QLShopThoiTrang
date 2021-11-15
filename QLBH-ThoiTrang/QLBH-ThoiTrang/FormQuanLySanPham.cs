@@ -33,6 +33,7 @@ namespace QLBH_ThoiTrang
         }
         private void ResetValue()
         {
+            txtTimKiem.Text = "Nhập Tên Sản Phẩm ";
             txtMaSanPham.Text = null;
             txtTenSanPham.Text = null;
             txtGiaSanPham.Text = null;

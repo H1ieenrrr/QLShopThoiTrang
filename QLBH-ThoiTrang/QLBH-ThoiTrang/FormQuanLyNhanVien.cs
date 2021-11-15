@@ -46,6 +46,7 @@ namespace QLBH_ThoiTrang
         }
         private void ResetValue()
         {
+            txtTimKiem.Text = "Nhập Tên Nhân Viên ";
             txtEmail.Text = null;
             txtDiaChi.Text = null;
             txtEmail.Text = null;
@@ -119,7 +120,16 @@ namespace QLBH_ThoiTrang
                     rbNhanVien.Checked = true;
 
                 checkUrlImage = txtHinh.Text;
-                pbHinhNV.Image = Image.FromFile(saveDirectory + dgvNhanVien.CurrentRow.Cells["HinhAnh"].Value.ToString());
+                try
+                {
+                    pbHinhNV.Image = Image.FromFile(saveDirectory + dgvNhanVien.CurrentRow.Cells["HinhAnh"].Value.ToString());
+                }
+                catch (Exception)
+                {
+
+                }
+                //checkUrlImage = txtHinh.Text;
+                //pbHinhNV.Image = Image.FromFile(saveDirectory + dgvNhanVien.CurrentRow.Cells["HinhAnh"].Value.ToString());
 
             }
         }
@@ -206,7 +216,7 @@ namespace QLBH_ThoiTrang
             }
             else
             {
-                DTO_NhanVien nv = new DTO_NhanVien(txtEmail.Text, txtTenNhanVien.Text, txtDiaChi.Text, txtDienThoai.Text, "\\ImagesSP\\" + fileName, role);
+                DTO_NhanVien nv = new DTO_NhanVien(txtEmail.Text, txtTenNhanVien.Text, txtDiaChi.Text, txtDienThoai.Text, "\\ImagesNV\\" + fileName, role);
                 if (busNhanVien.InsertNhanVien(nv))
                 {
                     MessageBox.Show("Thêm Nhân Viên Thành Công");
