@@ -121,7 +121,21 @@ return 1
 end
 else
 return -1
-   
+ go
+-- KiemTra Email trùng---------------------------------------
+CREATE PROCEDURE NV_KiemTraKhoaChinh
+@email  varchar(50)
+AS
+BEGIN
+	Declare @status int
+if exists(select * from NhanVien where Email = @email )
+	set @status = 1
+else
+	set @status = 0
+select @status
+end
+
+
 --Nhân Viên ----------------------------------------------------
 
 --Danh Sách NhanViên --
@@ -192,6 +206,20 @@ END
 go
 -----------------------------------------------------------------------------------------------------------------
 -----------------------------Khách Hàng------------------------------------------------------------
+------Kiểm tra Khách Hàng trùng-----
+CREATE PROCEDURE KH_KiemTraKhoaChinh
+@dienThoai  varchar(15)
+AS
+BEGIN
+	Declare @status int
+if exists(select * from KhachHang where DienThoai = @dienThoai )
+	set @status = 1
+else
+	set @status = 0
+select @status
+end
+
+go
 -- Hiển thị danh sách khách hàng
 CREATE PROCEDURE ListKH
 AS

@@ -1,0 +1,9 @@
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\bin\Release\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\bin\Release\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\bin\Release\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\bin\Release\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\obj\Release\DAL_QLShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\obj\Release\DAL_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\obj\Release\DAL_QLShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\obj\Release\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Game\QLBH-ThoiTrang\DAL_QLShopThoiTrang\obj\Release\DAL_QLShopThoiTrang.pdb
