@@ -12,6 +12,7 @@ namespace DTO_QLShopThoiTrang
         private string tenKH;
         private string diaChi;
         private string gioiTinh;
+        private DateTime ngaysinh;
         private string emailNV;
         public string DienThoai
         {
@@ -24,6 +25,17 @@ namespace DTO_QLShopThoiTrang
                 dienThoai = value;
             }
 
+        }
+        public DateTime NgaySinh
+        {
+            get
+            {
+                return ngaysinh;
+            }
+            set
+            {
+                ngaysinh = value;
+            }
         }
         public string TenKH
         {
@@ -69,20 +81,22 @@ namespace DTO_QLShopThoiTrang
                 emailNV = value;
             }
         }
-        public DTO_KhachHang(string dienthoai, string tenkh, string diachi, string gioitinh, string email)
+        public DTO_KhachHang(string dienthoai, string tenkh, string diachi, string gioitinh,DateTime ngaysinh, string email)
         {
             this.dienThoai = dienthoai;
             this.tenKH = tenkh;
             this.diaChi = diachi;
             this.gioiTinh = gioitinh;
             this.emailNV = email;
+            this.ngaysinh = ngaysinh;
         }
-        public DTO_KhachHang(string dienthoai, string tenkh, string diachi, string gioitinh)
+        public DTO_KhachHang(string dienthoai, string tenkh, string diachi, string gioitinh, DateTime ngaysinh)
         {
             this.dienThoai = dienthoai;
             this.tenKH = tenkh;
             this.diaChi = diachi;
             this.gioiTinh = gioitinh;
+            this.ngaysinh = ngaysinh;
         }
         public DTO_KhachHang()
         {

@@ -45,6 +45,7 @@ namespace QLBH_ThoiTrang
             txtDiaChi.Enabled = false;
             rbNam.Enabled = false;
             rbNu.Enabled = false;
+            dateTimeNgaySinh.Enabled = false;
 
             btnThem.Enabled = true;
             btnLuu.Enabled = false;
@@ -108,13 +109,19 @@ namespace QLBH_ThoiTrang
                 MessageBox.Show("Bạn chưa nhập địa chỉ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtDiaChi.Focus();
             }
+            else if (dateTimeNgaySinh.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Bạn Phải Chọn Ngày ", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dateTimeNgaySinh.Focus();
+                return;
+            }
             else if (rbNam.Checked == false && rbNu.Checked == false)
             {
                 MessageBox.Show("Bạn chưa chọn giới tính", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                DTO_KhachHang kh = new DTO_KhachHang(txtDienThoai.Text, txtTenKH.Text, txtDiaChi.Text, gioitinh, email);
+                DTO_KhachHang kh = new DTO_KhachHang(txtDienThoai.Text, txtTenKH.Text, txtDiaChi.Text, gioitinh, dateTimeNgaySinh.Value, email);
                 if (bus_khachhang.ThemKH(kh))
                 {
                     MessageBox.Show("Thêm thành công");
@@ -154,11 +161,13 @@ namespace QLBH_ThoiTrang
                 btnLuu.Enabled = false;
                 rbNam.Checked = true;
 
+                dateTimeNgaySinh.Enabled = true;
                 rbNam.Enabled = true;
                 rbNu.Enabled = true;
                 txtDienThoai.Text = dgvKhachHang.CurrentRow.Cells["DienThoai"].Value.ToString();
                 txtTenKH.Text = dgvKhachHang.CurrentRow.Cells["TenKH"].Value.ToString();
                 txtDiaChi.Text = dgvKhachHang.CurrentRow.Cells["DiaChi"].Value.ToString();
+                dateTimeNgaySinh.Text = dgvKhachHang.CurrentRow.Cells["NgaySinh"].Value.ToString();
                 if ((dgvKhachHang.CurrentRow.Cells["GioiTinh"].Value.ToString()) == "Nam")
                 {
                     rbNam.Checked = true;
@@ -187,6 +196,12 @@ namespace QLBH_ThoiTrang
                 MessageBox.Show("Bạn chưa nhập địa chỉ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 txtDiaChi.Focus();
             }
+            else if (dateTimeNgaySinh.Text.Trim().Length == 0)
+            {
+                MessageBox.Show("Bạn Phải Chọn Ngày ", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                dateTimeNgaySinh.Focus();
+                return;
+            }
             else if (rbNam.Checked == false && rbNu.Checked == false)
             {
                 MessageBox.Show("Bạn chưa chọn giới tính", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -196,7 +211,7 @@ namespace QLBH_ThoiTrang
                 string gioitinh = "Nam";
                 if (rbNu.Checked == true)
                     gioitinh = "Nữ";
-                DTO_KhachHang kh = new DTO_KhachHang(txtDienThoai.Text, txtTenKH.Text, txtDiaChi.Text, gioitinh);
+                DTO_KhachHang kh = new DTO_KhachHang(txtDienThoai.Text, txtTenKH.Text, txtDiaChi.Text, gioitinh,dateTimeNgaySinh.Value);
 
                 if (MessageBox.Show("Bạn có muốn chỉnh sửa?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
@@ -242,6 +257,29 @@ namespace QLBH_ThoiTrang
                 LoadKH();
                 ResetValue();
             }
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            DataTable dt = bus_khachhang.TimKiemKhachHang(txtTimKiem.Text);
+            if (dt.Rows.Count > 0)
+            {
+                dgvKhachHang.DataSource = bus_khachhang.TimKiemKhachHang(txtTimKiem.Text);
+                dgvKhachHang.Columns[0].HeaderText = "Điện Thoại";
+                dgvKhachHang.Columns[1].HeaderText = "Tên Khách Hàng";
+                dgvKhachHang.Columns[2].HeaderText = "Địa Chỉ";
+                dgvKhachHang.Columns[3].HeaderText = "Giới Tính";
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy số điện thoại");
+                txtTimKiem.Focus();
+            }
+        }
+
+        private void txtTimKiem_Click(object sender, EventArgs e)
+        {
+            txtTimKiem.Text = null;
         }
     }
 }

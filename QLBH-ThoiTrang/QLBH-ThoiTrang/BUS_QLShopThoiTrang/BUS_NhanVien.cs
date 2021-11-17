@@ -38,6 +38,10 @@ namespace BUS_QLShopThoiTrang
         {
             return dal_nhanvien.KiemTraEmail(email);
         }
+        public bool KiemTraAdmin()
+        {
+            return dal_nhanvien.KiemTraAdmin();
+        }
         public string encryption(string matkhau)
         {
             MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();

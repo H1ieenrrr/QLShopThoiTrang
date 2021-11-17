@@ -47,6 +47,7 @@ namespace DAL_QLShopThoiTrang
                 cmd.Parameters.AddWithValue("tenkh", kh.TenKH);
                 cmd.Parameters.AddWithValue("diachi", kh.DiaChi);
                 cmd.Parameters.AddWithValue("gioitinh", kh.GioiTinh);
+                cmd.Parameters.AddWithValue("ngaysinh", kh.NgaySinh);
                 cmd.Parameters.AddWithValue("email", kh.EmailNV);
                 if (cmd.ExecuteNonQuery() > 0)
                 {
@@ -77,6 +78,7 @@ namespace DAL_QLShopThoiTrang
                 cmd.Parameters.AddWithValue("tenkh", kh.TenKH);
                 cmd.Parameters.AddWithValue("diachi", kh.DiaChi);
                 cmd.Parameters.AddWithValue("gioitinh", kh.GioiTinh);
+                cmd.Parameters.AddWithValue("ngaysinh", kh.NgaySinh);
                 if (cmd.ExecuteNonQuery() > 0)
                 {
                     return true;
@@ -148,6 +150,29 @@ namespace DAL_QLShopThoiTrang
             return false;
         }
 
+        public DataTable TimKiemKhachHang(string DienThoai)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "TimKH";
+                cmd.Connection = conn;
+                cmd.Parameters.AddWithValue("dienthoai", DienThoai);
+                DataTable dt = new DataTable();
+                dt.Load(cmd.ExecuteReader());
+                return dt;
+            }
+            catch (Exception)
+            {
 
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
     }
 }

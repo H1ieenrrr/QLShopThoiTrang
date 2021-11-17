@@ -313,12 +313,6 @@ namespace QLBH_ThoiTrang
                 txtEmail.Focus();
                 return;
             }
-            //else if (busNhanVien.KiemTraEmail(txtEmail.Text.Trim()))
-            //{
-            //    MessageBox.Show("Email Đã Được Sử Dụng", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //    txtEmail.Focus();
-            //    return;
-            //}
             if (txtTenNhanVien.Text.Trim().Length == 0)
             {
                 MessageBox.Show("Bạn Phải Nhập Tên ", "Thông Báo ", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -345,7 +339,7 @@ namespace QLBH_ThoiTrang
             }
             else
             {
-                DTO_NhanVien nv = new DTO_NhanVien(txtEmail.Text, txtTenNhanVien.Text, txtDiaChi.Text, txtDienThoai.Text, txtHinh.Text, role);
+                DTO_NhanVien nv = new DTO_NhanVien(txtEmail.Text, txtTenNhanVien.Text, txtDiaChi.Text, txtDienThoai.Text, "\\ImagesNV\\" + fileName, role);
                 if (MessageBox.Show("Bạn Có Chắc Muốn Chỉnh Sửa ", "ConFirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     if (busNhanVien.UpdateNV(nv))
@@ -373,6 +367,15 @@ namespace QLBH_ThoiTrang
             string Email = txtEmail.Text;
             if (MessageBox.Show("Bạn Có Chắc Muốn Xóa Dữ Liệu ", "ConFirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
+                if (Email == FormMain.mail)
+                {
+                    MessageBox.Show("Tài Khoản Đang Sử Dụng Không Xóa Được ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (busNhanVien.KiemTraAdmin())
+                {
+                    MessageBox.Show("Không Được Xóa Admin", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
                 if (busNhanVien.DeleteNV(Email))
                 {
                     MessageBox.Show("Xóa Dữ Liệu Thành Công");

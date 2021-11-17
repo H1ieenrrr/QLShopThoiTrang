@@ -195,6 +195,32 @@ namespace DAL_QLShopThoiTrang
             }
             return false;
         }
+
+        public bool KiemTraAdmin()
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "NV_KiemTraAdmin";
+                cmd.Connection = conn;
+                if (Convert.ToInt32(cmd.ExecuteScalar()) > 0)
+                {
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
+        }
         public DataTable DanhSachNV()
         {
             try

@@ -50,6 +50,8 @@ namespace QLBH_ThoiTrang
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.dgvKhachHang = new System.Windows.Forms.DataGridView();
+            this.dateTimeNgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
             this.panelQuanLyKhachHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
             this.SuspendLayout();
@@ -72,6 +74,8 @@ namespace QLBH_ThoiTrang
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelQuanLyKhachHang.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.panelQuanLyKhachHang.Controls.Add(this.dateTimeNgaySinh);
+            this.panelQuanLyKhachHang.Controls.Add(this.label7);
             this.panelQuanLyKhachHang.Controls.Add(this.rbNu);
             this.panelQuanLyKhachHang.Controls.Add(this.rbNam);
             this.panelQuanLyKhachHang.Controls.Add(this.btnHuy);
@@ -143,6 +147,7 @@ namespace QLBH_ThoiTrang
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(239, 30);
             this.txtTimKiem.TabIndex = 88;
+            this.txtTimKiem.Click += new System.EventHandler(this.txtTimKiem_Click);
             // 
             // label9
             // 
@@ -158,7 +163,7 @@ namespace QLBH_ThoiTrang
             // txtDiaChi
             // 
             this.txtDiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDiaChi.Location = new System.Drawing.Point(736, 78);
+            this.txtDiaChi.Location = new System.Drawing.Point(739, 132);
             this.txtDiaChi.MaxLength = 100;
             this.txtDiaChi.Multiline = true;
             this.txtDiaChi.Name = "txtDiaChi";
@@ -189,7 +194,7 @@ namespace QLBH_ThoiTrang
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(633, 81);
+            this.label5.Location = new System.Drawing.Point(594, 132);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 29);
             this.label5.TabIndex = 77;
@@ -240,6 +245,7 @@ namespace QLBH_ThoiTrang
             this.btnTimKiem.TabIndex = 72;
             this.btnTimKiem.Text = "Tìm Kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = false;
+            this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
             // btnDong
             // 
@@ -330,6 +336,25 @@ namespace QLBH_ThoiTrang
             this.dgvKhachHang.TabIndex = 15;
             this.dgvKhachHang.Click += new System.EventHandler(this.dgvKhachHang_Click);
             // 
+            // dateTimeNgaySinh
+            // 
+            this.dateTimeNgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimeNgaySinh.Location = new System.Drawing.Point(739, 76);
+            this.dateTimeNgaySinh.Name = "dateTimeNgaySinh";
+            this.dateTimeNgaySinh.Size = new System.Drawing.Size(256, 34);
+            this.dateTimeNgaySinh.TabIndex = 94;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.label7.Location = new System.Drawing.Point(594, 76);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(129, 29);
+            this.label7.TabIndex = 93;
+            this.label7.Text = "Ngày Sinh:";
+            // 
             // FormQuanLyKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -371,5 +396,7 @@ namespace QLBH_ThoiTrang
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.DataGridView dgvKhachHang;
+        private System.Windows.Forms.DateTimePicker dateTimeNgaySinh;
+        private System.Windows.Forms.Label label7;
     }
 }

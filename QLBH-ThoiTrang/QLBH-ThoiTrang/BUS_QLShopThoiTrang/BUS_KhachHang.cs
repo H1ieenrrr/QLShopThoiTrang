@@ -29,6 +29,10 @@ namespace BUS_QLShopThoiTrang
             return dal_khachhang.XoaKH(dienthoai);
         }
 
+        public DataTable TimKiemKhachHang(string DienThoai)
+        {
+            return dal_khachhang.TimKiemKhachHang(DienThoai);
+        }
         public bool KiemTraSDT(string dienthoai)
         {
             return dal_khachhang.KiemTraSDT(dienthoai);
