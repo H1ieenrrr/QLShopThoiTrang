@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.csprojAssemblyReference.cache

@@ -42,24 +42,25 @@ create table SanPham(
 	    FOREIGN KEY (MaNV) references NhanVien(MaNV)
 );
 GO
-
 create table HoaDon(		
-		MaHD		int IDENTITY(1,1)  PRIMARY KEY NOT NULL,
-		TenKH       nvarchar(50)   NOT NULL, 
-		NgayLapHD   date           NOT NULL,
-		TongTien    float          NOT NULL,
+		MaHD		int IDENTITY(1,1) PRIMARY KEY NOT NULL,			
+		NgayLapHD   datetime       NOT NULL,
+		TongTien    decimal        NOT NULL,
+		Thue		int			   NOT NULL,
+		TongThanhToan decimal	   NOT NULL,
+		DienThoai	varchar(15)	   NOT NULL,	
 		MaNV        varchar(20)    NOT NULL,
-	    FOREIGN KEY (MaNV) references NhanVien(MaNV),		
+		FOREIGN KEY (DienThoai) references KhachHang(DienThoai),	
+	    FOREIGN KEY (MaNV) references NhanVien(MaNV)			
 );
-Go
+GO
 
 create table HoaDonCT(
 		MaHoaDonCT int IDENTITY(1,1)  PRIMARY KEY NOT NULL,
 		MaHD	   int NOT NULL,
-		MaSP       int NOT NULL,
-		TenSP	   nvarchar(55) NOT NULL,
+		MaSP       int NOT NULL,	
 		SoLuong    int NOT NULL,
-		DonGia     float NOT NULL,
+		DonGia     decimal NOT NULL,
 		FOREIGN KEY (MaHD) references HoaDon(MaHD),
 	    FOREIGN KEY (MaSP) references SanPham(MaSP)		
 )
@@ -369,27 +370,107 @@ BEGIN
 Select TenNV from NhanVien where Email = @email
 END
 GO
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
+-- hiển thong tín khách hàng
+CREATE PROCEDURE HienThiThongTinKH
+@dienthoai varchar(15)
+AS
+BEGIN
+select TenKH, DiaChi from KhachHang where DienThoai = @dienthoai
+END
+GO
+-- hiển thị tên sản phẩm lên combobox
+CREATE PROCEDURE HoaDon_LoadTenSP
+AS
+BEGIN
+Select TenSP from SanPham
+END
+GO
+--hiển thị giá
+CREATE PROCEDURE HoaDon_GiaSP
+@TenSP nvarchar(50) 
+AS
+BEGIN
+Select MaSP, GiaSP from SanPham
+where TenSP = @TenSP 
+END
+GO
 
 
+--procdure tìm hoá đơn
+go
+CREATE PROCEDURE TimHoaDon
+AS
+BEGIN
+DECLARE @ngaybatdau datetime, @ngayketthuc datetime
+select * from HoaDon where Cast(NgayLapHD as date) between @ngaybatdau and @ngayketthuc
+END
+GO
+--procedure list hoá đơn
+CREATE PROCEDURE DanhSachHoaDon
+AS
+BEGIN
+Select HoaDon.MaHD,HoaDon.NgayLapHD,NhanVien.TenNV,KhachHang.TenKH,
+HoaDon.TongTien,HoaDon.Thue,HoaDon.TongThanhToan from HoaDon,NhanVien,KhachHang
+Where HoaDon.MaNV = NhanVien.MaNV and HoaDon.DienThoai = KhachHang.DienThoai 
+END
 
+----------------------------------------
+
+CREATE PROCEDURE HD_TimHDTheoTenNV
+@tennv nvarchar(50)
+AS
+BEGIN
+Select HoaDon.MaHD,HoaDon.NgayLapHD,NhanVien.TenNV,KhachHang.TenKH,
+HoaDon.TongTien,HoaDon.Thue,HoaDon.TongThanhToan from HoaDon,NhanVien,KhachHang
+Where HoaDon.MaNV = NhanVien.MaNV and HoaDon.DienThoai = KhachHang.DienThoai and
+    TenNV like '%' + @tennv + '%'
+END
+
+--procedure thêm hoá đơn
+go
+CREATE PROCEDURE HD_ThemHoaDon
+@ngaylaphd datetime, 
+@thue int,
+@tongtien decimal, 
+@tongthanhtoan decimal,
+@dienthoai varchar(15), 
+@email varchar(50)
+AS
+BEGIN
+	DECLARE @manv VARCHAR(20);
+	select @manv = MaNV from NhanVien where Email = @email
+	INSERT INTO HoaDon(NgayLapHD,Thue,TongTien,TongThanhToan,DienThoai,MaNV) 
+	values(@ngaylaphd,@thue,@tongtien,@tongthanhtoan,@dienthoai,@MaNV)
+END
+go
+-- procedure thêm chi tiết hoá đơn
+
+
+-----Hoá đơn chi tiết
+--thêm hoá đơn CT
+CREATE PROCEDURE HDCT_ThemHDCT
+@masp int,@soluong int,@dongia decimal,@ngaylap datetime
+AS
+BEGIN
+		DECLARE @mahd int;
+select @mahd = MaHD from HoaDon where NgayLapHD = @ngaylap
+INSERT INTO HoaDonCT(MaSP,SoLuong,DonGia,MaHD) values(@masp,@soluong,@dongia,@mahd) 
+END
+go
+-- Danh sách hoá đơn chi tiết
+CREATE PROCEDURE HDCT_DanhSachHDCT
+@mahd int
+AS
+BEGIN
+SELECT hdct.MaHD, sp.TenSP, hdct.SoLuong, hdct.DonGia,hd.TongTien FROM HoaDonCT hdct,SanPham sp,HoaDon hd 
+where (hdct.MaHD = hd.MaHD and hdct.MaSP = sp.MaSP) and hdct.MaHD = @mahd
+END
+GO
 --Tài Khoản ADMIN
 insert into NhanVien values ('1','123@123', N'Huy Hoà', N'Đồng Nai','0335592943','', 1,'False','3244185981728979115075721453575112')
 
 
 
 
-insert into NhanVien values ('','2','tanhien@gmail.com', N'Tấn Hiển', N'Đồng Nai','02324232233', 1, '3244185981728979115075721453575112')
-delete NhanVien where ID = 13
-select * from NhanVien
 
-
-select* from SanPham
-delete from SanPham where MaSP = 8
-insert into SanPham values(N'Áo Khoác', 250000, 'M','08-11-2021',10,N'Hàng mới',1)
-insert into SanPham values(N'Áo Khỉ', 250000, 'M','08-11-2021',10,N'Hàng mới',1)
-
-select TenSP from SanPham
-select * from KhachHang
 

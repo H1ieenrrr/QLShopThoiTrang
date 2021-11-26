@@ -1,0 +1,6 @@
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\bin\Release\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\bin\Release\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Release\DTO_QLShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Release\DTO_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Release\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Release\DTO_QLShopThoiTrang.pdb
