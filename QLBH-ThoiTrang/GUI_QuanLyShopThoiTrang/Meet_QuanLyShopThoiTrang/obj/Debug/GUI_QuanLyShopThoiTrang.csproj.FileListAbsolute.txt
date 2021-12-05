@@ -1,0 +1,154 @@
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Guna.UI.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmBanHang.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmChiTietHoaDon.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmDangNhap.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmKhachHang.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmMain.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmNhanVien.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmSanPham.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThongKe.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.Properties.Resources.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CopyComplete
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe.config
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThayDoiMatKhau.resources
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.dll
+C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.xml
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe.config
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Guna.UI2.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.xml
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmBanHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmChiTietHoaDon.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmDangNhap.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmKhachHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmMain.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmNhanVien.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmSanPham.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThayDoiMatKhau.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThongKe.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.Properties.Resources.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.GenerateResource.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang.mdf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang_log.ldf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe.config
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Guna.UI2.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.xml
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmBanHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmChiTietHoaDon.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmDangNhap.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmKhachHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmMain.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmNhanVien.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmSanPham.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThayDoiMatKhau.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThongKe.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.Properties.Resources.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.GenerateResource.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang.mdf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang_log.ldf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang.mdf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang_log.ldf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe.config
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Guna.UI2.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.xml
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmBanHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmChiTietHoaDon.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmDangNhap.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmKhachHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmMain.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmNhanVien.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmSanPham.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThayDoiMatKhau.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThongKe.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.Properties.Resources.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.GenerateResource.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Dự án\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang.mdf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\QLShopBanHang_log.ldf
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe.config
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Meet_QuanLyShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\Guna.UI2.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\itextsharp.xml
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmBanHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmChiTietHoaDon.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmDangNhap.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmKhachHang.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmMain.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmNhanVien.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmSanPham.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThayDoiMatKhau.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmThongKe.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.Properties.Resources.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.GenerateResource.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\GUI_QuanLyShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.exe
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.pdb

@@ -379,12 +379,12 @@ select TenKH, DiaChi from KhachHang where DienThoai = @dienthoai
 END
 GO
 -- hiển thị tên sản phẩm lên combobox
-CREATE PROCEDURE HoaDon_LoadTenSP
+Create Procedure HoaDon_LoadTenSP
 AS
 BEGIN
-Select TenSP from SanPham
+SELECT TenSP from SanPham
 END
-GO
+go
 --hiển thị giá
 CREATE PROCEDURE HoaDon_GiaSP
 @TenSP nvarchar(50) 
@@ -415,7 +415,7 @@ Where HoaDon.MaNV = NhanVien.MaNV and HoaDon.DienThoai = KhachHang.DienThoai
 END
 
 ----------------------------------------
-
+go
 CREATE PROCEDURE HD_TimHDTheoTenNV
 @tennv nvarchar(50)
 AS
@@ -466,8 +466,23 @@ SELECT hdct.MaHD, sp.TenSP, hdct.SoLuong, hdct.DonGia,hd.TongTien FROM HoaDonCT 
 where (hdct.MaHD = hd.MaHD and hdct.MaSP = sp.MaSP) and hdct.MaHD = @mahd
 END
 GO
+
+-- Danh Sach Tong Hop
+Create proc ThongKeTongHop
+@TuNgay date, @DenNgay date
+as
+begin
+	select	ROW_NUMBER() OVER (ORDER BY convert(date, NgayLapHD)) AS 'STT',
+	convert(date, NgayLapHD) as 'Ngày Lập Hóa Đơn',count(MaHD) as 'Tổng Số Hóa Đơn',
+			SUM(TongTien) as 'Tổng Tiền Không VAT',SUM(TongTien)*0.1 as 'Tổng VAT',
+			SUM(TongThanhToan)as 'Tổng Tiền Có VAT'
+	from HOADON 
+	where convert(date,NgayLapHD) between @TuNgay and @DenNgay
+	group by convert(date, NgayLapHD)
+end
+go
 --Tài Khoản ADMIN
-insert into NhanVien values ('1','123@123', N'Huy Hoà', N'Đồng Nai','0335592943','', 1,'False','3244185981728979115075721453575112')
+insert into NhanVien values ('1','chinhchu@gmail.com', N'Huy Hoà', N'Đồng Nai','0335592943','', 1,'False','3244185981728979115075721453575112')
 
 
 
