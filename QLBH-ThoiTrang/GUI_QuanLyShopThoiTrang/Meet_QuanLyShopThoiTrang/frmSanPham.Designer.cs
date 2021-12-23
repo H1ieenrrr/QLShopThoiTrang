@@ -112,6 +112,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.txtTimKiem.ShadowDecoration.Parent = this.txtTimKiem;
             this.txtTimKiem.Size = new System.Drawing.Size(236, 40);
             this.txtTimKiem.TabIndex = 148;
+            this.txtTimKiem.Click += new System.EventHandler(this.txtTimKiem_Click);
             // 
             // btThem
             // 
@@ -265,7 +266,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(15, 52);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 29);
+            this.label3.Size = new System.Drawing.Size(133, 24);
             this.label3.TabIndex = 148;
             this.label3.Text = "Mã Sản Phẩm:";
             // 
@@ -278,7 +279,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(574, 186);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 29);
+            this.label4.Size = new System.Drawing.Size(51, 24);
             this.label4.TabIndex = 149;
             this.label4.Text = "Size:";
             // 
@@ -290,7 +291,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(15, 147);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(172, 29);
+            this.label1.Size = new System.Drawing.Size(135, 24);
             this.label1.TabIndex = 150;
             this.label1.Text = "Giá Sản Phẩm:";
             // 
@@ -302,7 +303,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(14, 200);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(204, 29);
+            this.label2.Size = new System.Drawing.Size(161, 24);
             this.label2.TabIndex = 151;
             this.label2.Text = "Mô Tả Sản Phẩm:";
             // 
@@ -314,7 +315,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label5.Location = new System.Drawing.Point(14, 100);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(178, 29);
+            this.label5.Size = new System.Drawing.Size(141, 24);
             this.label5.TabIndex = 152;
             this.label5.Text = "Tên Sản Phẩm:";
             // 
@@ -327,7 +328,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label7.Location = new System.Drawing.Point(574, 91);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(139, 29);
+            this.label7.Size = new System.Drawing.Size(110, 24);
             this.label7.TabIndex = 153;
             this.label7.Text = "Ngày Nhập:";
             // 
@@ -340,7 +341,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label8.Location = new System.Drawing.Point(574, 136);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(122, 29);
+            this.label8.Size = new System.Drawing.Size(97, 24);
             this.label8.TabIndex = 154;
             this.label8.Text = "Số Lượng:";
             // 
@@ -353,7 +354,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label11.Location = new System.Drawing.Point(574, 49);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(115, 29);
+            this.label11.Size = new System.Drawing.Size(95, 24);
             this.label11.TabIndex = 155;
             this.label11.Text = "Hình Ảnh:";
             // 
@@ -677,7 +678,7 @@ namespace Meet_QuanLyShopThoiTrang
             // 
             // frmSanPham
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1245, 730);
             this.Controls.Add(this.dgvSanPham);

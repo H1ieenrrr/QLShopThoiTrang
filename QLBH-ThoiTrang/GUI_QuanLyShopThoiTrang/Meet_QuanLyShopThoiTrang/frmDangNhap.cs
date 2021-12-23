@@ -38,7 +38,7 @@ namespace Meet_QuanLyShopThoiTrang
                 DataTable dt = busNhanVien.VaiTroNhanVien(nv.EmailNV);
                 vaitro = dt.Rows[0][0].ToString();
                 session = 1;
-                frmMain frm = new frmMain();
+                frmLoad frm = new frmLoad();
                 frm.Show();
                 this.Hide();
             }

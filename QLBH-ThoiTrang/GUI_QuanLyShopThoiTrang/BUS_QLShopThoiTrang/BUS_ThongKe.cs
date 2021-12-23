@@ -28,5 +28,20 @@ namespace BUS_QLShopThoiTrang
         {
             return dal_thongke.ThongKeTongHop(tungay,denngay);
         }
+
+        public DataTable ThongKeKhachHang()
+        {
+            return dal_thongke.ThongKeKhachHang();
+        }
+        public DataTable ThongKeKhachHangTheoThang()
+        {
+            return dal_thongke.ThongKeKhachHangTheoThang();
+        }
+        public DataTable ThongKeKhachHangTheoNam()
+        {
+            return dal_thongke.ThongKeKhachHangTheoNam();
+        }
+
+        
     }
 }

@@ -48,6 +48,9 @@ namespace Meet_QuanLyShopThoiTrang
             this.btXuatThongKePDF = new Guna.UI2.WinForms.Guna2Button();
             this.btXuatThongKeExcel = new Guna.UI2.WinForms.Guna2Button();
             this.dgvThongKe = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.btnThongKeKHThang = new Guna.UI2.WinForms.Guna2Button();
+            this.btnThongKeKHNam = new Guna.UI2.WinForms.Guna2Button();
+            this.btnThongKeKhachHang = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongKe)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +64,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(38, 69);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(160, 29);
+            this.label3.Size = new System.Drawing.Size(127, 24);
             this.label3.TabIndex = 149;
             this.label3.Text = "Ngày bắt đầu:";
             // 
@@ -124,7 +127,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(403, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 29);
+            this.label1.Size = new System.Drawing.Size(96, 24);
             this.label1.TabIndex = 165;
             this.label1.Text = "Đến ngày:";
             // 
@@ -145,10 +148,10 @@ namespace Meet_QuanLyShopThoiTrang
             this.btTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btTimKiem.Image")));
             this.btTimKiem.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btTimKiem.ImageSize = new System.Drawing.Size(35, 35);
-            this.btTimKiem.Location = new System.Drawing.Point(721, 53);
+            this.btTimKiem.Location = new System.Drawing.Point(721, 55);
             this.btTimKiem.Name = "btTimKiem";
             this.btTimKiem.ShadowDecoration.Parent = this.btTimKiem;
-            this.btTimKiem.Size = new System.Drawing.Size(254, 45);
+            this.btTimKiem.Size = new System.Drawing.Size(209, 45);
             this.btTimKiem.TabIndex = 167;
             this.btTimKiem.Text = "Thống Kê Chi Tiết";
             this.btTimKiem.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -216,7 +219,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(245, 614);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(328, 38);
+            this.label2.Size = new System.Drawing.Size(271, 31);
             this.label2.TabIndex = 171;
             this.label2.Text = "TỔNG DOANH THU:";
             // 
@@ -256,7 +259,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(776, 614);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 38);
+            this.label4.Size = new System.Drawing.Size(72, 31);
             this.label4.TabIndex = 173;
             this.label4.Text = "VNĐ";
             // 
@@ -303,7 +306,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.btnThongKeTongHop.Location = new System.Drawing.Point(721, 112);
             this.btnThongKeTongHop.Name = "btnThongKeTongHop";
             this.btnThongKeTongHop.ShadowDecoration.Parent = this.btnThongKeTongHop;
-            this.btnThongKeTongHop.Size = new System.Drawing.Size(254, 45);
+            this.btnThongKeTongHop.Size = new System.Drawing.Size(209, 45);
             this.btnThongKeTongHop.TabIndex = 169;
             this.btnThongKeTongHop.Text = "Thống Kê Tổng Hợp";
             this.btnThongKeTongHop.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -397,13 +400,13 @@ namespace Meet_QuanLyShopThoiTrang
             this.dgvThongKe.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvThongKe.EnableHeadersVisualStyles = false;
             this.dgvThongKe.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dgvThongKe.Location = new System.Drawing.Point(12, 180);
+            this.dgvThongKe.Location = new System.Drawing.Point(12, 228);
             this.dgvThongKe.Name = "dgvThongKe";
             this.dgvThongKe.RowHeadersVisible = false;
             this.dgvThongKe.RowHeadersWidth = 51;
             this.dgvThongKe.RowTemplate.Height = 24;
             this.dgvThongKe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvThongKe.Size = new System.Drawing.Size(1188, 403);
+            this.dgvThongKe.Size = new System.Drawing.Size(1188, 355);
             this.dgvThongKe.TabIndex = 170;
             this.dgvThongKe.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dgvThongKe.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -428,11 +431,90 @@ namespace Meet_QuanLyShopThoiTrang
             this.dgvThongKe.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.dgvThongKe.DoubleClick += new System.EventHandler(this.dgvThongKe_DoubleClick);
             // 
+            // btnThongKeKHThang
+            // 
+            this.btnThongKeKHThang.BorderRadius = 15;
+            this.btnThongKeKHThang.CheckedState.Parent = this.btnThongKeKHThang;
+            this.btnThongKeKHThang.CustomImages.Parent = this.btnThongKeKHThang;
+            this.btnThongKeKHThang.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongKeKHThang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongKeKHThang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThongKeKHThang.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThongKeKHThang.DisabledState.Parent = this.btnThongKeKHThang;
+            this.btnThongKeKHThang.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongKeKHThang.ForeColor = System.Drawing.Color.White;
+            this.btnThongKeKHThang.HoverState.Parent = this.btnThongKeKHThang;
+            this.btnThongKeKHThang.Image = ((System.Drawing.Image)(resources.GetObject("btnThongKeKHThang.Image")));
+            this.btnThongKeKHThang.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongKeKHThang.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnThongKeKHThang.Location = new System.Drawing.Point(12, 177);
+            this.btnThongKeKHThang.Name = "btnThongKeKHThang";
+            this.btnThongKeKHThang.ShadowDecoration.Parent = this.btnThongKeKHThang;
+            this.btnThongKeKHThang.Size = new System.Drawing.Size(120, 45);
+            this.btnThongKeKHThang.TabIndex = 175;
+            this.btnThongKeKHThang.Text = "Tháng";
+            this.btnThongKeKHThang.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongKeKHThang.Click += new System.EventHandler(this.btnThongKeKHThang_Click);
+            // 
+            // btnThongKeKHNam
+            // 
+            this.btnThongKeKHNam.BorderRadius = 15;
+            this.btnThongKeKHNam.CheckedState.Parent = this.btnThongKeKHNam;
+            this.btnThongKeKHNam.CustomImages.Parent = this.btnThongKeKHNam;
+            this.btnThongKeKHNam.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongKeKHNam.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongKeKHNam.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThongKeKHNam.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThongKeKHNam.DisabledState.Parent = this.btnThongKeKHNam;
+            this.btnThongKeKHNam.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongKeKHNam.ForeColor = System.Drawing.Color.White;
+            this.btnThongKeKHNam.HoverState.Parent = this.btnThongKeKHNam;
+            this.btnThongKeKHNam.Image = ((System.Drawing.Image)(resources.GetObject("btnThongKeKHNam.Image")));
+            this.btnThongKeKHNam.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongKeKHNam.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnThongKeKHNam.Location = new System.Drawing.Point(148, 177);
+            this.btnThongKeKHNam.Name = "btnThongKeKHNam";
+            this.btnThongKeKHNam.ShadowDecoration.Parent = this.btnThongKeKHNam;
+            this.btnThongKeKHNam.Size = new System.Drawing.Size(131, 45);
+            this.btnThongKeKHNam.TabIndex = 176;
+            this.btnThongKeKHNam.Text = "Năm";
+            this.btnThongKeKHNam.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongKeKHNam.Click += new System.EventHandler(this.btnThongKeKHNam_Click);
+            // 
+            // btnThongKeKhachHang
+            // 
+            this.btnThongKeKhachHang.BorderRadius = 15;
+            this.btnThongKeKhachHang.CheckedState.Parent = this.btnThongKeKhachHang;
+            this.btnThongKeKhachHang.CustomImages.Parent = this.btnThongKeKhachHang;
+            this.btnThongKeKhachHang.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongKeKhachHang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThongKeKhachHang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThongKeKhachHang.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThongKeKhachHang.DisabledState.Parent = this.btnThongKeKhachHang;
+            this.btnThongKeKhachHang.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnThongKeKhachHang.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThongKeKhachHang.ForeColor = System.Drawing.Color.White;
+            this.btnThongKeKhachHang.HoverState.Parent = this.btnThongKeKhachHang;
+            this.btnThongKeKhachHang.Image = ((System.Drawing.Image)(resources.GetObject("btnThongKeKhachHang.Image")));
+            this.btnThongKeKhachHang.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongKeKhachHang.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnThongKeKhachHang.Location = new System.Drawing.Point(294, 177);
+            this.btnThongKeKhachHang.Name = "btnThongKeKhachHang";
+            this.btnThongKeKhachHang.ShadowDecoration.Parent = this.btnThongKeKhachHang;
+            this.btnThongKeKhachHang.Size = new System.Drawing.Size(160, 45);
+            this.btnThongKeKhachHang.TabIndex = 177;
+            this.btnThongKeKhachHang.Text = "Khách Hàng";
+            this.btnThongKeKhachHang.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnThongKeKhachHang.Click += new System.EventHandler(this.btnThongKeKhachHang_Click);
+            // 
             // frmThongKe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 703);
+            this.Controls.Add(this.btnThongKeKhachHang);
+            this.Controls.Add(this.btnThongKeKHNam);
+            this.Controls.Add(this.btnThongKeKHThang);
             this.Controls.Add(this.dgvThongKe);
             this.Controls.Add(this.guna2GroupBox1);
             this.Controls.Add(this.label4);
@@ -471,5 +553,8 @@ namespace Meet_QuanLyShopThoiTrang
         private Guna.UI2.WinForms.Guna2DataGridView dgvThongKe;
         private Guna.UI2.WinForms.Guna2Button btXuatThongKePDF;
         private Guna.UI2.WinForms.Guna2Button btnThongKeTongHop;
+        private Guna.UI2.WinForms.Guna2Button btnThongKeKHThang;
+        private Guna.UI2.WinForms.Guna2Button btnThongKeKHNam;
+        private Guna.UI2.WinForms.Guna2Button btnThongKeKhachHang;
     }
 }

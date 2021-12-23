@@ -106,6 +106,7 @@ namespace Meet_QuanLyShopThoiTrang
             dgvThongKe.Columns[5].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvThongKe.Columns[6].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
 
+            btXuatThongKeExcel.Enabled = true;
             TongDoanhThu();
         }
 
@@ -570,6 +571,24 @@ namespace Meet_QuanLyShopThoiTrang
             dgvThongKe.Columns[4].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             dgvThongKe.Columns[5].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
 
+            btXuatThongKeExcel.Enabled = false;
         }
+
+        private void btnThongKeKHThang_Click(object sender, EventArgs e)
+        {
+            dgvThongKe.DataSource = bus_thongke.ThongKeKhachHangTheoThang();
+        }
+
+        private void btnThongKeKHNam_Click(object sender, EventArgs e)
+        {
+            dgvThongKe.DataSource = bus_thongke.ThongKeKhachHangTheoNam();
+        }
+
+        private void btnThongKeKhachHang_Click(object sender, EventArgs e)
+        {
+            dgvThongKe.DataSource = bus_thongke.ThongKeKhachHang();
+        }
+
+        
     }
 }

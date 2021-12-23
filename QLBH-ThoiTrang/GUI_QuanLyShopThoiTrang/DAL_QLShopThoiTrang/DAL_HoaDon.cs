@@ -159,6 +159,33 @@ namespace DAL_QLShopThoiTrang
             }
             return false;
         }
-
+        public bool KiemTraHang(string TenSP, float SoLuong, float SoLuongDat)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "KiemTraHang";
+                cmd.Connection = conn;
+                cmd.Parameters.AddWithValue("TenSP",TenSP);
+                cmd.Parameters.AddWithValue("SoLuong", SoLuong);
+                cmd.Parameters.AddWithValue("SoLuongdat", SoLuongDat);
+                if (Convert.ToInt32(cmd.ExecuteScalar()) > 0)
+                {
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
+            
+        }
     }
 }

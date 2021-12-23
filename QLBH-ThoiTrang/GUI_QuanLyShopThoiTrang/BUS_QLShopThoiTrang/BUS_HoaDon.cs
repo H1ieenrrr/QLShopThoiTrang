@@ -36,6 +36,10 @@ namespace BUS_QLShopThoiTrang
         {
             return dal_hoadon.ThemHoaDon(hd);
         }
+        public bool KiemTraHang(string TenSP, float SoLuong, float SoLuongDat)
+        {
+            return dal_hoadon.KiemTraHang(TenSP, SoLuong, SoLuongDat);
+        }
 
     }
 }

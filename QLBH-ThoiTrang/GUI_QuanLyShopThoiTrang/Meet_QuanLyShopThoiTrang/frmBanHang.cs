@@ -55,7 +55,8 @@ namespace Meet_QuanLyShopThoiTrang
             dgvCTHD.Text = null;
             txtDonGia.Text = null;
             txtSoLuong.Text = null;
-            dgvCTHD.Text = null;
+
+            
         }
 
         private void frmBanHang_Load(object sender, EventArgs e)
@@ -118,46 +119,63 @@ namespace Meet_QuanLyShopThoiTrang
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            float floatGiaSP;
-            bool isFloatGiaSP = float.TryParse(txtSoLuong.Text.Trim().ToString(), out floatGiaSP);
-            if (txtMaSP.Text == "" || cbTenSP.Text == "")
-            {
-                MessageBox.Show("Chưa chọn sp", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (!isFloatGiaSP || float.Parse(txtSoLuong.Text) < 0)
-            {
-                MessageBox.Show("Chưa nhập số lượng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                if (!CheckTrungSanPham(txtMaSP.Text))
+            try
+            {             
+                string TenSP = cbTenSP.Text;
+
+                float floatGiaSP;
+                bool isFloatGiaSP = float.TryParse(txtSoLuong.Text.Trim().ToString(), out floatGiaSP);
+                if (txtMaSP.Text == "" || cbTenSP.Text == "")
                 {
-                    DataRow row = dtDSCT.NewRow();
-                    row[0] = txtMaSP.Text;
-                    row[1] = cbTenSP.Text;
-                    row[2] = txtDonGia.Text;
-                    row[3] = txtSoLuong.Text;
-                    row[4] = (Convert.ToDecimal(txtDonGia.Text) * Convert.ToDecimal(txtSoLuong.Text)).ToString("###,###,###");
-                    dtDSCT.Rows.Add(row);
+                    MessageBox.Show("Chưa chọn sp", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (!isFloatGiaSP || float.Parse(txtSoLuong.Text) < 0)
+                {
+                    MessageBox.Show("Chưa nhập số lượng", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else if (bus_hoadon.KiemTraHang(TenSP, float.Parse(txtSoLuong.Text), float.Parse(txtSoLuong.Text)))
+                {                  
+                    txtSoLuong.Focus();
                 }
                 else
                 {
-                    capnhatSL(txtMaSP.Text, int.Parse(txtSoLuong.Text.ToString()));
-                }
-                dgvCTHD.DataSource = dtDSCT;
-                txtTongHD.Text = "0";
-                //kiểm tra nếu cột kh có giá trị thì tổng tiền trở về 0                           
-                for (int i = 0; i < dtDSCT.Rows.Count; i++)
-                {
-                    //txtTongHD.Text = Convert.ToString(float.Parse(txtTongHD.Text) + float.Parse(dgvCTHD.Rows[i].Cells[4].Value.ToString()));
-                    float temp = Convert.ToInt32(float.Parse(txtTongHD.Text) + float.Parse(dgvCTHD.Rows[i].Cells[4].Value.ToString()));
-                    txtTongHD.Text = temp.ToString("###,###,###");
-                }
-                //txtTongThanhToan.Text = Convert.ToString(float.Parse(txtTongHD.Text) +
-                //       (float.Parse(txtTongHD.Text) * int.Parse(cbThue.Text) / 100));
-                float temp1 = Convert.ToInt32(float.Parse(txtTongHD.Text) +(float.Parse(txtTongHD.Text) * int.Parse(cbThue.Text) / 100));
-                txtTongThanhToan.Text = temp1.ToString("###,###,###");
+                    if (!CheckTrungSanPham(txtMaSP.Text))
+                    {
+                        DataRow row = dtDSCT.NewRow();
+                        row[0] = txtMaSP.Text;
+                        row[1] = cbTenSP.Text;
+                        row[2] = txtDonGia.Text;
+                        row[3] = txtSoLuong.Text;
+                        row[4] = (Convert.ToDecimal(txtDonGia.Text) * Convert.ToDecimal(txtSoLuong.Text)).ToString("###,###,###");
+                        
+                        dtDSCT.Rows.Add(row);
+                    }
+                    else
+                    {
+                        capnhatSL(txtMaSP.Text, int.Parse(txtSoLuong.Text.ToString()));
+                    }
+                    dgvCTHD.DataSource = dtDSCT;
+                    txtTongHD.Text = "0";
+                    //kiểm tra nếu cột kh có giá trị thì tổng tiền trở về 0                           
+                    for (int i = 0; i < dtDSCT.Rows.Count; i++)
+                    {
+                        //txtTongHD.Text = Convert.ToString(float.Parse(txtTongHD.Text) + float.Parse(dgvCTHD.Rows[i].Cells[4].Value.ToString()));
+                        float temp = Convert.ToInt32(float.Parse(txtTongHD.Text) + float.Parse(dgvCTHD.Rows[i].Cells[4].Value.ToString()));
+                        txtTongHD.Text = temp.ToString("###,###,###");
+                    }
+                    //txtTongThanhToan.Text = Convert.ToString(float.Parse(txtTongHD.Text) +
+                    //       (float.Parse(txtTongHD.Text) * int.Parse(cbThue.Text) / 100));
+                    float temp1 = Convert.ToInt32(float.Parse(txtTongHD.Text) + (float.Parse(txtTongHD.Text) * int.Parse(cbThue.Text) / 100));
+                    txtTongThanhToan.Text = temp1.ToString("###,###,###");
 
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Số lượng hàng không đủ", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                txtSoLuong.Text = null;
+                txtSoLuong.Focus();
             }
         }
         private bool CheckTrungSanPham(string maSP)

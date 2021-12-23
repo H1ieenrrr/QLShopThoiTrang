@@ -47,9 +47,11 @@ namespace Meet_QuanLyShopThoiTrang
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaDragControl1
@@ -59,6 +61,7 @@ namespace Meet_QuanLyShopThoiTrang
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
+            this.guna2Panel2.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel2.Controls.Add(this.guna2ControlBox2);
@@ -83,7 +86,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(28, 303);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(33, 372);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(90, 25);
             this.guna2HtmlLabel2.TabIndex = 19;
@@ -94,7 +97,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(28, 235);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(33, 304);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(57, 25);
             this.guna2HtmlLabel1.TabIndex = 18;
@@ -143,7 +146,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.btThoat.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btThoat.ForeColor = System.Drawing.Color.White;
             this.btThoat.HoverState.Parent = this.btThoat;
-            this.btThoat.Location = new System.Drawing.Point(315, 399);
+            this.btThoat.Location = new System.Drawing.Point(318, 475);
             this.btThoat.Name = "btThoat";
             this.btThoat.ShadowDecoration.Parent = this.btThoat;
             this.btThoat.Size = new System.Drawing.Size(155, 41);
@@ -165,7 +168,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.btDangNhap.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btDangNhap.ForeColor = System.Drawing.Color.White;
             this.btDangNhap.HoverState.Parent = this.btDangNhap;
-            this.btDangNhap.Location = new System.Drawing.Point(160, 399);
+            this.btDangNhap.Location = new System.Drawing.Point(139, 475);
             this.btDangNhap.Name = "btDangNhap";
             this.btDangNhap.ShadowDecoration.Parent = this.btDangNhap;
             this.btDangNhap.Size = new System.Drawing.Size(149, 41);
@@ -179,7 +182,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.lbQuenMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbQuenMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbQuenMatKhau.ForeColor = System.Drawing.Color.White;
-            this.lbQuenMatKhau.Location = new System.Drawing.Point(335, 353);
+            this.lbQuenMatKhau.Location = new System.Drawing.Point(335, 427);
             this.lbQuenMatKhau.Name = "lbQuenMatKhau";
             this.lbQuenMatKhau.Size = new System.Drawing.Size(146, 25);
             this.lbQuenMatKhau.TabIndex = 6;
@@ -191,7 +194,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.checkNhoMatKhau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(9)))), ((int)(((byte)(43)))));
             this.checkNhoMatKhau.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkNhoMatKhau.ForeColor = System.Drawing.Color.White;
-            this.checkNhoMatKhau.Location = new System.Drawing.Point(204, 353);
+            this.checkNhoMatKhau.Location = new System.Drawing.Point(204, 427);
             this.checkNhoMatKhau.Name = "checkNhoMatKhau";
             this.checkNhoMatKhau.Size = new System.Drawing.Size(125, 25);
             this.checkNhoMatKhau.TabIndex = 4;
@@ -204,7 +207,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.swNhoMatKhau.CheckedState.InnerBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(1)))), ((int)(((byte)(88)))));
             this.swNhoMatKhau.CheckedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(1)))), ((int)(((byte)(88)))));
             this.swNhoMatKhau.CheckedState.Parent = this.swNhoMatKhau;
-            this.swNhoMatKhau.Location = new System.Drawing.Point(139, 353);
+            this.swNhoMatKhau.Location = new System.Drawing.Point(139, 427);
             this.swNhoMatKhau.Name = "swNhoMatKhau";
             this.swNhoMatKhau.ShadowDecoration.Parent = this.swNhoMatKhau;
             this.swNhoMatKhau.Size = new System.Drawing.Size(55, 25);
@@ -234,7 +237,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.txtMatKhau.ForeColor = System.Drawing.Color.White;
             this.txtMatKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMatKhau.HoverState.Parent = this.txtMatKhau;
-            this.txtMatKhau.Location = new System.Drawing.Point(134, 291);
+            this.txtMatKhau.Location = new System.Drawing.Point(139, 360);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMatKhau.MaxLength = 30;
             this.txtMatKhau.Name = "txtMatKhau";
@@ -264,7 +267,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.txtEmail.ForeColor = System.Drawing.Color.White;
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtEmail.HoverState.Parent = this.txtEmail;
-            this.txtEmail.Location = new System.Drawing.Point(134, 223);
+            this.txtEmail.Location = new System.Drawing.Point(139, 292);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEmail.MaxLength = 50;
             this.txtEmail.Name = "txtEmail";
@@ -309,6 +312,19 @@ namespace Meet_QuanLyShopThoiTrang
             this.guna2PictureBox2.UseTransparentBackground = true;
             this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BorderRadius = 20;
+            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(186, 110);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
+            this.guna2PictureBox3.Size = new System.Drawing.Size(238, 126);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox3.TabIndex = 20;
+            this.guna2PictureBox3.TabStop = false;
+            // 
             // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -327,6 +343,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -348,5 +365,6 @@ namespace Meet_QuanLyShopThoiTrang
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
     }
 }

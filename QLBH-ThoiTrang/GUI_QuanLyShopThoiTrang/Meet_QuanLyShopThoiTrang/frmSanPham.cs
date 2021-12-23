@@ -359,5 +359,10 @@ namespace Meet_QuanLyShopThoiTrang
                 }
             }
         }
+
+        private void txtTimKiem_Click(object sender, EventArgs e)
+        {
+            txtTimKiem.Text = null;
+        }
     }
 }

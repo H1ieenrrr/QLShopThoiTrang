@@ -354,6 +354,8 @@ begin
 			From SanPham WHERE TenSP like '%' + @TenSP + '%'
 END
 go
+------------------
+
 --------------- Tạo Hoá đơn
 -- hiện danh sách sản phẩm
 CREATE PROCEDURE HienThiDanhSachSP
@@ -379,12 +381,12 @@ select TenKH, DiaChi from KhachHang where DienThoai = @dienthoai
 END
 GO
 -- hiển thị tên sản phẩm lên combobox
-Create Procedure HoaDon_LoadTenSP
+CREATE PROCEDURE HoaDon_LoadTenSP
 AS
 BEGIN
-SELECT TenSP from SanPham
+Select TenSP from SanPham
 END
-go
+GO
 --hiển thị giá
 CREATE PROCEDURE HoaDon_GiaSP
 @TenSP nvarchar(50) 
@@ -394,6 +396,7 @@ Select MaSP, GiaSP from SanPham
 where TenSP = @TenSP 
 END
 GO
+
 
 
 --procdure tìm hoá đơn
@@ -413,19 +416,18 @@ Select HoaDon.MaHD,HoaDon.NgayLapHD,NhanVien.TenNV,KhachHang.TenKH,
 HoaDon.TongTien,HoaDon.Thue,HoaDon.TongThanhToan from HoaDon,NhanVien,KhachHang
 Where HoaDon.MaNV = NhanVien.MaNV and HoaDon.DienThoai = KhachHang.DienThoai 
 END
-
-----------------------------------------
 go
+--------------------------------
+
 CREATE PROCEDURE HD_TimHDTheoTenNV
 @tennv nvarchar(50)
 AS
 BEGIN
 Select HoaDon.MaHD,HoaDon.NgayLapHD,NhanVien.TenNV,KhachHang.TenKH,
 HoaDon.TongTien,HoaDon.Thue,HoaDon.TongThanhToan from HoaDon,NhanVien,KhachHang
-Where HoaDon.MaNV = NhanVien.MaNV and HoaDon.DienThoai = KhachHang.DienThoai and
-    TenNV like '%' + @tennv + '%'
+Where HoaDon.MaNV = NhanVien.MaNV and HoaDon.DienThoai = KhachHang.DienThoai and TenNV like '%' + @tennv + '%'
 END
-
+go
 --procedure thêm hoá đơn
 go
 CREATE PROCEDURE HD_ThemHoaDon
@@ -467,7 +469,7 @@ where (hdct.MaHD = hd.MaHD and hdct.MaSP = sp.MaSP) and hdct.MaHD = @mahd
 END
 GO
 
--- Danh Sach Tong Hop
+---- Danh Sach Tong Hop
 Create proc ThongKeTongHop
 @TuNgay date, @DenNgay date
 as
@@ -481,8 +483,83 @@ begin
 	group by convert(date, NgayLapHD)
 end
 go
+
+-- PROCRDURE SoLuong Sản phẩm
+create procedure KiemTraHang
+@TenSP nvarchar(50),
+@SoLuong float,
+@Soluongdat float
+as
+begin      
+        SELECT @SoLuong = Soluong from SanPham where TenSP = @TenSP
+        IF(@SoLuongdat > @SoLuong )
+		Begin
+				RollBack
+		End	
+end
+go
+--Thay đổi số lượng sản phẩm trong kho
+CREATE TRIGGER trg_SanPham ON HoaDonCT AFTER INSERT AS 
+BEGIN
+  DECLARE @SoLuong int;
+  DECLARE @SoLuongDat int;
+  select  @SoLuong = SoLuong from SanPham
+  select  @SoLuongDat = SoLuong from HoaDonCT
+  
+  IF( @SoLuongDat > @SoLuong)
+  BEGIN
+	    RollBack Tran
+  END
+	UPDATE SanPham
+	SET SoLuong = SanPham.SoLuong - (
+		SELECT SoLuong
+		FROM inserted
+		WHERE MaSP = SanPham.MaSP
+	)
+	FROM SanPham
+	JOIN inserted ON SanPham.MaSP = inserted.MaSP	
+END
+GO
+
+--
+CREATE PROCEDURE ThongKeKhachHang
+AS
+BEGIN
+select kh.TenKH as 'Tên Khách Hàng',kh.DienThoai as 'Số Điện Thoại',COUNT(*) as 'Số hoá đơn'
+from KhachHang kh, HoaDon hd 
+where kh.DienThoai = hd.DienThoai
+GROUP BY kh.DienThoai, kh.TenKH
+order by COUNT(*) desc
+END
+GO
+
+CREATE PROCEDURE ThongKeKhachHangTheoNam
+AS
+BEGIN
+select YEAR(hd.NgayLapHD) as 'Năm' ,kh.TenKH as 'Tên Khách Hàng', 
+kh.DienThoai as 'Số Điện Thoại',COUNT(*) as 'Số hoá đơn'
+from KhachHang kh, HoaDon hd 
+where kh.DienThoai = hd.DienThoai
+GROUP BY kh.DienThoai, kh.TenKH, YEAR(hd.NgayLapHD)
+order by 1 ASC;
+END
+GO
+
+CREATE PROCEDURE ThongKeKhachHangTheoThang
+AS
+BEGIN
+select FORMAT(hd.NgayLapHD,'MM / yyyy')  as 'Tháng' ,kh.TenKH as 'Tên Khách Hàng', 
+kh.DienThoai as 'Số Điện Thoại',COUNT(*) as 'Số hoá đơn'
+from KhachHang kh, HoaDon hd 
+where kh.DienThoai = hd.DienThoai
+GROUP BY kh.DienThoai, kh.TenKH, hd.NgayLapHD
+order by 1 ASC
+END
+GO
+
+
 --Tài Khoản ADMIN
-insert into NhanVien values ('1','chinhchu@gmail.com', N'Huy Hoà', N'Đồng Nai','0335592943','', 1,'False','3244185981728979115075721453575112')
+insert into NhanVien values ('1','chinhchu@gmail.com', N'Huy Hoà', N'Đồng Nai','0335592943','', 1,'False','1962026656160185351301320480154111117132155')
 
 
 

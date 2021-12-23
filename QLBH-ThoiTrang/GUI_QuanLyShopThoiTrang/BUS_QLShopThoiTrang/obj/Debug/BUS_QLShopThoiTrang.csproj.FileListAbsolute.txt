@@ -31,3 +31,47 @@ C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTr
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CopyComplete
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.dll
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\Test\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CopyComplete
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\User\Documents\C#\Dự án thiệt\GUI_QuanLyShopThoiTrang\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\BUS_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DAL_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.AssemblyReference.cache
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.csproj.CopyComplete
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.dll
+C:\Users\Tan Hien\Downloads\GUI_QuanLyShopThoiTrang1\GUI_QuanLyShopThoiTrang\BUS_QLShopThoiTrang\obj\Debug\BUS_QLShopThoiTrang.pdb

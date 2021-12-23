@@ -111,5 +111,74 @@ namespace DAL_QLShopThoiTrang
                 conn.Close();
             }
         }
+
+        public DataTable ThongKeKhachHang()
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "ThongKeKhachHang";
+                cmd.Connection = conn;
+                DataTable dta = new DataTable();
+                dta.Load(cmd.ExecuteReader());
+                return dta;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        public DataTable ThongKeKhachHangTheoThang()
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "ThongKeKhachHangTheoThang";
+                cmd.Connection = conn;
+                DataTable dta = new DataTable();
+                dta.Load(cmd.ExecuteReader());
+                return dta;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        public DataTable ThongKeKhachHangTheoNam()
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "ThongKeKhachHangTheoNam";
+                cmd.Connection = conn;
+                DataTable dta = new DataTable();
+                dta.Load(cmd.ExecuteReader());
+                return dta;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        
     }
 }
