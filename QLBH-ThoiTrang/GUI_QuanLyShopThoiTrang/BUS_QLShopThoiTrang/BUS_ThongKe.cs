@@ -41,7 +41,10 @@ namespace BUS_QLShopThoiTrang
         {
             return dal_thongke.ThongKeKhachHangTheoNam();
         }
+        public bool XoaHD(string mahd)
+        {
+            return dal_thongke.XoaHD(mahd);
+        }
 
-        
     }
 }

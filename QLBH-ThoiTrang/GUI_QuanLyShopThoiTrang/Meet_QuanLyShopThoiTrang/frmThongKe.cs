@@ -78,6 +78,7 @@ namespace Meet_QuanLyShopThoiTrang
             ResetValue();
             LoadThongKe();
             TongDoanhThu();
+            txtMaHD.Visible = false;
         }
 
         private void btTimKiem_Click(object sender, EventArgs e)
@@ -330,7 +331,7 @@ namespace Meet_QuanLyShopThoiTrang
 
         private void btXuatThongKePDF_Click(object sender, EventArgs e)
         {
-            //exportgridtopdf(dgvThongKe, "text");
+           
             if (dgvThongKe.Rows.Count > 0)
             {
                 SaveFileDialog sfd = new SaveFileDialog();
@@ -505,46 +506,7 @@ namespace Meet_QuanLyShopThoiTrang
                 MessageBox.Show("Không có bản ghi nào được Export!!!", "Info");
             }
         }
-        public void exportgridtopdf(DataGridView dgw, string filename)
-        {
-            BaseFont bf = BaseFont.CreateFont(BaseFont.TIMES_BOLD, BaseFont.CP1250, BaseFont.EMBEDDED);
-            PdfPTable pdftable = new PdfPTable(dgw.Columns.Count);
-            pdftable.DefaultCell.Padding = 3;
-            pdftable.WidthPercentage = 100;
-            pdftable.HorizontalAlignment = Element.ALIGN_LEFT;
-            pdftable.DefaultCell.BorderWidth = 1;
-
-            iTextSharp.text.Font text = new iTextSharp.text.Font(bf, 10, iTextSharp.text.Font.NORMAL);
-            foreach (DataGridViewColumn colomn in dgw.Columns)
-            {
-                PdfPCell cell = new PdfPCell(new Phrase(colomn.HeaderText, text));
-                //   cell.BackgroundColor = new iTextSharp.text.Color(240, 240, 240);
-                pdftable.AddCell(cell);
-            }
-            foreach (DataGridViewRow row in dgvThongKe.Rows)
-            {
-                foreach (DataGridViewCell cell in row.Cells)
-                {
-                    pdftable.AddCell(new Phrase(cell.Value.ToString(),text));
-                }
-            }
-            var savefiledialog = new SaveFileDialog();
-            savefiledialog.FileName = filename;
-            savefiledialog.DefaultExt = ".pdf";
-            if (savefiledialog.ShowDialog() == DialogResult.OK)
-            {
-                using (FileStream stream = new FileStream(savefiledialog.FileName, FileMode.Create))
-                {
-                    Document doc = new Document(PageSize.A4,10f,10f,10f,0f);
-                    PdfWriter.GetInstance(doc, stream);
-                    doc.Open();
-                    doc.Add(pdftable);
-                    doc.Close();
-                    stream.Close();
-                }
-            }
-        }
-
+        
         private void guna2GroupBox1_Click(object sender, EventArgs e)
         {
 
@@ -589,6 +551,42 @@ namespace Meet_QuanLyShopThoiTrang
             dgvThongKe.DataSource = bus_thongke.ThongKeKhachHang();
         }
 
-        
+        private void btnXoaHD_Click(object sender, EventArgs e)
+        {
+            string mahd = txtMaHD.Text;
+            if (MessageBox.Show("Bạn Có Chắc Muốn Xóa Dữ Liệu ", "ConFirm", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                if (bus_thongke.XoaHD(mahd))
+                {
+                    MessageBox.Show("Xóa Dữ Liệu Thành Công");
+                    ResetValue();
+                    LoadThongKe();
+                    TongDoanhThu();
+                }
+                else
+                {
+                    MessageBox.Show("Xóa Không Thành Công");
+                }
+            }
+            else
+            {
+                ResetValue();
+            }
+        }
+
+        private void dgvThongKe_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvThongKe.Rows.Count > 1)
+            {
+                try
+                {
+                    txtMaHD.Text = dgvThongKe.CurrentRow.Cells["MaHD"].Value?.ToString();                   
+                }
+                catch (Exception )
+                {
+                    
+                }
+            }
+        }
     }
 }

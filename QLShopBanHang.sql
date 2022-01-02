@@ -557,6 +557,14 @@ order by 1 ASC
 END
 GO
 
+CREATE PROCEDURE XoaHD
+  @MaHD  varchar (10)     
+as
+BEGIN
+Delete HoaDonCT where MaHD = @MaHD
+DELETE HoaDon where MaHD = @MaHD
+END
+go
 
 --Tài Khoản ADMIN
 insert into NhanVien values ('1','chinhchu@gmail.com', N'Huy Hoà', N'Đồng Nai','0335592943','', 1,'False','1962026656160185351301320480154111117132155')

@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO_QLShopThoiTrang;
 using BUS_QLShopThoiTrang;
+using System.IO;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 
 namespace Meet_QuanLyShopThoiTrang
 {
@@ -238,12 +241,29 @@ namespace Meet_QuanLyShopThoiTrang
                             bus_hoadonct.ThemHoaDonCT(hdct);
                         }
                         MessageBox.Show("Thanh toán thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        ResetValue();
+                        
+
+                        if (MessageBox.Show("Bạn Có Muốn In Hóa Đơn", "Thông Báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                        {
+                            frmInHoaDon InHD = new frmInHoaDon();
+                            InHD.tenKH = txtTenKH.Text;
+                            InHD.thuNgan = cbTenNV.Text;
+                            InHD.tongHD = txtTongHD.Text;
+                            InHD.thue = cbThue.Text;
+                            InHD.tongThanhToan = txtTongThanhToan.Text;                         
+                            InHD.dt = dtDSCT;
+                            InHD.Show();
+                        }
+                        else
+                        {
+                            ResetValue();
+                        }
+                        
                     }
                 }
             }
         }
-
+       
         private void cbThue_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (txtTongHD.Text != "")
@@ -254,6 +274,11 @@ namespace Meet_QuanLyShopThoiTrang
         private void dgvCTHD_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             vitriclick = e.RowIndex;
+        }
+
+        private void dtNgayTao_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

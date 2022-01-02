@@ -178,7 +178,30 @@ namespace DAL_QLShopThoiTrang
                 conn.Close();
             }
         }
+        public bool XoaHD(string mahd)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "XoaHD";
+                cmd.Connection = conn;
+                cmd.Parameters.AddWithValue("MaHD", mahd);
+                if (cmd.ExecuteNonQuery() > 0)
+                    return true;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return false;
+        }
 
-        
+
     }
 }

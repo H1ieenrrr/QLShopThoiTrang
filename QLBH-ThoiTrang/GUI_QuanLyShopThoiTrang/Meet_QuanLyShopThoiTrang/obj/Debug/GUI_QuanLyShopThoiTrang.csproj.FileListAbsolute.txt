@@ -258,3 +258,4 @@ C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoi
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\WinFormAnimation.dll
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\bin\Debug\CircularProgressBar.xml
 C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmLoad.resources
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\Meet_QuanLyShopThoiTrang\obj\Debug\Meet_QuanLyShopThoiTrang.frmInHoaDon.resources

@@ -40,6 +40,7 @@ namespace BUS_QLShopThoiTrang
         {
             return dal_hoadon.KiemTraHang(TenSP, SoLuong, SoLuongDat);
         }
+      
 
     }
 }

@@ -99,7 +99,7 @@ namespace Meet_QuanLyShopThoiTrang
             this.btnHoaDon.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.btnHoaDon.Size = new System.Drawing.Size(220, 60);
             this.btnHoaDon.TabIndex = 4;
-            this.btnHoaDon.Text = "  Hoá Đơn";
+            this.btnHoaDon.Text = "  Thống Kê";
             this.btnHoaDon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHoaDon.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnHoaDon.UseVisualStyleBackColor = true;
@@ -202,7 +202,6 @@ namespace Meet_QuanLyShopThoiTrang
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-           
             // 
             // PanelTiltleBar
             // 

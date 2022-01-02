@@ -4,3 +4,8 @@ C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debu
 C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.dll
 C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.pdb
 C:\Users\Admin\source\repos\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.csprojAssemblyReference.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\bin\Debug\DTO_QLShopThoiTrang.pdb
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.csproj.CoreCompileInputs.cache
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.dll
+C:\Users\Tan Hien\OneDrive\Documents\Kỳ_4\Dự Án 1\QLBH-ThoiTrang\QLShopThoiTrang\QLBH-ThoiTrang\GUI_QuanLyShopThoiTrang\DTO_QLShopThoiTrang\obj\Debug\DTO_QLShopThoiTrang.pdb
